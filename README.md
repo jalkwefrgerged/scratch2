@@ -1,78 +1,88 @@
-Below is an updated analysis that **incorporates specific language** about market interest, feasibility of separation, viability, optionality, identification criteria, annual review processes, value drivers, synergy considerations, FMU dependencies, data room preparations, and other key points you highlighted. This ensures the response thoroughly addresses the requirement to identify franchise components that are **currently separable and marketable** in a timely manner in resolution.
+Below is a **combined gap analysis** and **concise outline** of what must be provided under subsection (vii). The gap analysis highlights **shortcomings** in the stakeholder’s existing response, and the outline details **exactly** what the CIDI should disclose—only incorporating items **relevant** to the regulatory text.
 
 ---
 
-## Key Elements of the Requirement
+## **GAP ANALYSIS**
 
-1. **Identification of Franchise Components**  
-   - **What It Requires:**  
-     - The CIDI must identify specific “franchise components” (FCs)—major business units, product sets, or operational segments—that can be **sold or spun off** during resolution.  
-     - “Currently separable” means these FCs have enough **operational discreteness** to be decoupled **in a timely manner** without requiring major restructuring.  
-     - The institution should provide the **results** of this process in a **table**, listing each FC.  
-   - **Why It Matters:**  
-     - Regulators need clarity on **which parts of the bank** can be quickly carved out and **divested** to **maximize value** and **minimize disruption** in a resolution scenario.  
-   - **Additional Detail – Identification Criteria:**  
-     - **Annual Review & Approval Process:** Demonstrate a formal procedure (e.g., at least annual) where a committee reviews FC designations.  
-     - **Methodology for Significance:** Define **quantitative thresholds** (e.g., a set % of total assets, liabilities, or revenue) alongside **qualitative factors** (e.g., operational interconnectedness to MEs/CBLs/FCs) used to decide if an FC is material enough to list.
+**Stakeholder Response (vii):**  
+> *“CIBC’s US registered broker‐dealer is CIBC World Markets Corp. Please refer to slide 8 of the ‘US‐Entity Organizational Structure and Naming Convention Standards.’ Controllership can provide descriptions on the interconnectedness between legal entities. Please reach out to Emily Lundberg.”*
 
-2. **Marketability in a Timely Manner**  
-   - **What It Requires:**  
-     - Show **market interest**: That each FC has sufficient buyer demand in a short resolution timeframe, supporting a **value-maximizing disposition**.  
-     - Emphasize “**optionalities**” in how each FC can be sold (individually or combined) to accommodate different resolution strategies.  
-   - **Why It Matters:**  
-     - Speed is critical for preserving **franchise value** and avoiding broader instability; regulators want to see **feasible** divestiture pathways.  
-   - **Additional Detail – Market Interest & Optionality:**  
-     - Outline **potential acquirers** (e.g., single-acquirer purchase-and-assumption vs. multiple buyers) and note that historical FDIC resolutions often rely on speed.  
-     - Highlight unique attributes or “natural segmentation” that make each FC appealing, enhancing the bank’s **divestiture options** in a stress scenario.
+1. **Insufficient Service Description:**  
+   - The response does not specify **which services** (e.g., trade execution, advisory) the broker‐dealer provides to the CIDI or its customers.
 
-3. **Value Drivers and Financial Viability**  
-   - **What It Requires:**  
-     - Analyze each FC’s **revenue value drivers** (e.g., fee revenue, net interest income) and **cost value drivers** (e.g., fixed vs. variable costs) to illustrate underlying profitability.  
-     - Show that separation of each FC will not threaten the **financial viability** of either the remaining entity or the FC itself.  
-   - **Why It Matters:**  
-     - **Buyers** look for stable revenue sources and manageable cost structures.  
-     - **Regulators** need assurance that pulling out an FC does not destabilize the bank’s critical operations.  
-   - **Additional Detail – MAQ Approach:**  
-     - Reference the bank’s management accounting system (e.g., “MAQ management Analytics Qube”) for analyzing financial statements, revenue streams, and cost structures to confirm robust valuation.
+2. **No Integration Detail:**  
+   - It references an organizational chart but **doesn’t explain** how the broker‐dealer is integrated operationally (shared systems, branding, or cross‐selling with the CIDI).
 
-4. **Evidence of Separability**  
-   - **What It Requires:**  
-     - Demonstrate “**feasibility of separation**” operationally and legally—e.g., specifying which **contracts**, **client agreements**, or **regulatory notifications** might be needed.  
-     - Consider whether the FC relies on shared technology, staff, or processes.  
-   - **Why It Matters:**  
-     - A timely spinoff demands minimal entanglements with the broader institution’s infrastructure.  
-   - **Additional Detail – Legal & Operational Analyses:**  
-     - **Legal Analysis:** Evaluate **regulatory approvals**, cross-default clauses, or client contract dependencies that could slow divestiture.  
-     - **Operational Analysis:** Identify **FMU (Financial Market Utility)** and **agent bank** dependencies for payments, clearing, settlement, etc. If an FC needs certain memberships or infrastructure to execute transactions, outline how that reliance continues or transitions after separation.
+3. **No Analysis of Discontinuation Risks:**  
+   - The response lacks any **discussion** of what happens if broker‐dealer services are abruptly halted (impact on operations, customers, compliance, etc.).
 
-5. **Timing Considerations**  
-   - **What It Requires:**  
-     - Provide a sense of how quickly each FC could be sold or transferred (e.g., in days/weeks/months) under crisis conditions.  
-   - **Why It Matters:**  
-     - **Speed** is essential to preserving value and limiting contagion risk.  
-   - **Additional Detail – Data Room & Readiness:**  
-     - Prepare a **virtual data room** framework, including an inventory of critical reports for FDIC or bidders.  
-     - Document how **bidder due diligence** would be facilitated (e.g., capabilities #26, #27).
+4. **Missing Mitigation Measures:**  
+   - There is no mention of **actions** the CIDI would take to reduce disruption—such as alternative providers, transition services, or contractual safeguards.
 
-6. **Potential Obstacles and Mitigations**  
-   - **What It Requires:**  
-     - Acknowledge any **risks to separability**, e.g., operational entanglements, joint services, or contractual obligations that could impede a “timely manner” separation.  
-     - Outline mitigating actions (e.g., pre-negotiated stand-alone service agreements, alternative vendor contracts) to **enhance separability** and maintain **operational continuity**.  
-   - **Why It Matters:**  
-     - Regulators must see that the bank can realistically address these barriers under duress.  
-   - **Additional Detail – FC Combinations & Synergies:**  
-     - Assess whether combining multiple FCs (due to overlapping clients or complementary products) might raise the **value** in resolution.
+5. **Over‐Reliance on External Reference:**  
+   - Pointing to slides or an individual contact does not meet the requirement for a **self‐contained** explanation or plan.
 
 ---
 
-## Conclusion
+## **OUTLINE: WHAT MUST BE PROVIDED TO SATISFY REQUIREMENT (vii)**
 
-To meet the requirement for **identifying currently separable and marketable franchise components**:
+### 1. **Description of the Broker‐Dealer Relationship**
 
-1. **List Franchise Components** in a structured way, applying a defined **identification process** (annual review, committee oversight, quantitative thresholds).  
-2. **Demonstrate Market Interest & Feasibility** by noting each FC’s **value drivers**, synergy potential, and how it can be sold (individually or combined) to maximize value in a short timeframe.  
-3. **Prove Operational & Legal Separability** with explicit references to necessary **contracts, technology, regulatory notifications**, and highlight steps to ensure minimal disruption (including consideration of **FMU** dependencies).  
-4. **Ensure Preparedness** by documenting **data room** setup and other readiness measures enabling prompt bidder due diligence.  
-5. **Address Potential Obstacles** through remediation strategies—covering everything from cross-default clauses to reliance on shared services—so each FC can be **viably** spun off without harming the CIDI’s overall resolution outcome.
+- **Identify the Entity**  
+  - Name “CIBC World Markets Corp.” as the relevant broker‐dealer (subsidiary or affiliate status, if not already clear).  
+  - Indicate if it’s registered under FINRA, SEC, or other regulatory bodies.
 
-By explicitly incorporating these points—**market interest, feasibility of separation, viability, optionality,** and the thorough methodology for identifying and analyzing FCs—the final submission will satisfy the requirement and showcase a robust plan for **value-maximizing dispositions** of franchise components in resolution.
+- **Services to the CIDI or CIDI Customers**  
+  - Specify what products/functions the BD handles, e.g., trade execution, custody, advisory, underwriting.  
+  - Clarify whether the BD supports the CIDI’s own operational needs (like treasury/capital markets) or provides offerings to the CIDI’s retail/commercial clients.
+
+- **Integration with the CIDI’s Business & Operations**  
+  - Note any **shared resources** (IT systems, staff, brand elements) or **cross‐selling** practices.  
+  - State if these BD activities are **crucial** to any of the CIDI’s core business lines.
+
+---
+
+### 2. **Analysis of Potential Challenges from Discontinuation**
+
+- **Operational Gaps**  
+  - Explain how a sudden cutoff of BD services would affect the CIDI’s day‐to‐day (e.g., halted trading, lost product lines).  
+  - Note **compliance exposures** (e.g., licensing, recordkeeping) if the BD is abruptly gone.
+
+- **Customer & Reputational Risks**  
+  - Address potential **client disruption** (loss of brokerage or advisory services).  
+  - Consider reputational harm if customers can’t access expected investment capabilities.
+
+- **Legal & Contractual Considerations**  
+  - Reference **any intercompany agreements** or contractual dependencies (clearing, data sharing).  
+  - Clarify if client data or transaction records are under the BD’s control and how that might be affected by discontinuation.
+
+---
+
+### 3. **Actions to Mitigate Such Challenges**
+
+- **Contingency Plans & Alternative Providers**  
+  - Identify backup broker‐dealers or third‐party arrangements that could step in.  
+  - Consider whether the CIDI can **temporarily insource** key BD functions.
+
+- **Transition Services & Contractual Safeguards**  
+  - Document any **transition service agreements** that reduce the impact if the BD separates.  
+  - Note clauses enabling **smooth migration** of client accounts or data in a disruption.
+
+- **Operational & Technological Separation**  
+  - Describe any **standalone systems** or resources that help the CIDI function if the BD fails.  
+  - Include mention of staff training, alternate workflows, or **disaster recovery** relevant to the broker‐dealer link.
+
+---
+
+### 4. **Summary of Required Documentation**
+
+1. **Clear Description of the BD’s Role & Interdependencies**  
+   - Self‐contained explanation (not just a reference to slides or external individuals).  
+2. **Comprehensive Risk Analysis** for Discontinuation  
+   - Operational, customer, and legal exposures if services suddenly end.  
+3. **Detailed Mitigation Measures**  
+   - Plans and backup strategies so CIDI can withstand the BD’s unavailability.
+
+---
+
+**By providing the above details—filling in the current gaps on service descriptions, integration, potential discontinuation risks, and mitigation strategies—the CIDI’s submission will fully meet the requirement in subsection (vii).**
