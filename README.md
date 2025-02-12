@@ -1,102 +1,94 @@
-Below is a revised version of the consolidated document. It first explains why **relying solely on the parent company’s plan to sell off CIBC USA** fails to meet the regulatory requirement under Section 6, given the assumption that the parent is itself in resolution. It then transitions into an outline of what the CIDI’s resolution submission should address.
+Below is the same analysis **enhanced** with specialized details from your additional notes—such as market interest, feasibility of separation, viability, optionality, identification criteria, annual review processes, value drivers, and the importance of a data room. These refinements help ensure the CIDI’s response thoroughly addresses every aspect of **identifying separable and marketable franchise components** under requirement (i).
 
 ---
 
-## 1. Why the Stakeholder’s Reliance on the Parent’s Plan to Sell CIBC USA Is Insufficient
+## Key Elements of the Requirement
 
-Under Section 6, the regulator assumes the **parent company and its affiliates are in resolution** under 11 U.S.C. 101 et seq. (or another insolvency regime). This means the parent cannot be counted on for an orderly transaction or divestment. A parent-focused plan on how it might “sell” the subsidiary in normal or near-normal conditions falls short because:
+1. **Identification of Franchise Components**  
+   - **What It Requires:**  
+     - The CIDI must list specific “franchise components” (i.e., significant businesses, product sets, or operational units) that can be sold, spun off, or otherwise separated from the institution during resolution.  
+     - “Currently separable” implies these components can stand independently from the broader organization without requiring extensive restructuring or protracted negotiations. This includes assessing whether they can be disaggregated in a **timely manner** given their **operationally discrete** nature.  
+   - **Why It Matters:**  
+     - In a resolution scenario, regulators, potential acquirers, and other stakeholders need clarity on which parts of the bank can quickly be carved out and sold or transferred in order to **maximize value** and **minimize disruption**.
 
-1. **Scenario Misalignment:**  
-   - **Normal Divestment vs. Parent Insolvency:**  
-     The parent’s plan describes selling off CIBC USA as though the parent has the time, resources, and stability to orchestrate a strategic sale.  
-     - Under Section 6, the parent is itself in crisis and cannot oversee or fund a normal divestment process, leaving the CIDI to demonstrate how it would stand alone.
+   - **Additional Detail – Identification Criteria and Review Process:**  
+     - **Annual Evaluation & Committee Approval:** Demonstrate how the bank identifies these components on an ongoing basis (e.g., annual or periodic reviews, committee oversight).  
+     - **Quantitative & Qualitative Thresholds:** Show how significance is determined (e.g., a defined percentage of total assets, revenue, or liabilities, along with operational interconnectedness factors).
 
-2. **Lack of CIDI-Centric Continuity Measures:**  
-   - The parent’s plan often omits how CIBC USA would maintain day-to-day operations if the parent is insolvent.  
-   - Section 6 demands the CIDI’s own blueprint for remaining economically viable—particularly for capital, liquidity, shared services, and IT support—without depending on the parent’s ability to manage a sale.
+2. **Marketability in a Timely Manner**  
+   - **What It Requires:**  
+     - Beyond listing the components, the CIDI must demonstrate that each identified component could generate **sufficient market interest** in a **short resolution timeframe**.  
+     - This includes showcasing the component’s unique attributes, synergy opportunities, or reliable revenue sources that enhance its attractiveness to potential acquirers.  
+   - **Why It Matters:**  
+     - **Speed is critical** in resolution for preserving franchise value and preventing broader financial fallout.  
+     - Regulators want to see that these divestitures are **feasible** (operationally and financially) and **viable** (not threatening overall stability) under crisis conditions.
 
-3. **Failure to Address Distressed Separation Actions:**  
-   - **Parent Unable to Support:**  
-     If the parent is in resolution, transitional service agreements or orderly migration strategies typically assumed in a sale scenario may be unavailable.  
-   - **Regulatory Requirement:**  
-     Section 6 calls for a timely, cost‑effective separation plan specifically designed for the parent’s insolvency, not a standard divestment.
+   - **Additional Detail – Market Interest & Optionality:**  
+     - **Market Interest:** Indicate why acquirers would want the franchise component. For instance, highlight stable client bases, brand strength, or synergies with other businesses.  
+     - **Optionality:** Stress how each component provides a “meaningful option” for the firm’s resolution—whether sold alone or bundled to create greater **value or synergy** in a transaction.
 
-4. **Insufficient Identification of Insolvency-Driven Barriers:**  
-   - A normal sale plan rarely analyzes the immediate barriers triggered by parent insolvency (e.g., cross-default clauses, terminated shared-service arrangements).  
-   - The CIDI must list and mitigate these obstacles—particularly around legal contracts, technology dependencies, and vendor relationships—when the parent can no longer provide support.
+3. **Sufficiency for Group A CIDI Strategy (if applicable)**  
+   - **What It Requires:**  
+     - For a Group A CIDI, the identified components must be sufficient to support the bank’s broader resolution strategy—e.g., generating enough liquidity, simplifying operations, or preserving critical services.  
+   - **Why It Matters:**  
+     - The resolution strategy likely depends on monetizing or isolating these components **without** causing instability.  
+     - Regulators will test whether the plan’s dependence on these sellable units is realistic under stressed conditions.
 
-5. **Overlooking the Bridge Bank Option:**  
-   - A parent-led sale strategy presumes a voluntary transaction with a buyer.  
-   - Section 6 envisions a **bridge bank** solution if necessary, allowing CIBC USA’s critical operations and franchise value to continue under FDIC receivership. The parent’s plan generally does not delve into this U.S.-specific resolution mechanism.
+4. **Value Drivers and Financial Viability**  
+   - **What It Requires:**  
+     - Explain the **financial underpinnings** (revenue streams, cost structures, capital needs) that make each component attractive to buyers and feasible to separate.  
+     - This includes clarifying how separation of the component won’t undermine the CIDI’s overall financial or operational viability.  
+   - **Why It Matters:**  
+     - Buyers look at **revenue value drivers** (e.g., fee income, net interest income) and **cost drivers** (e.g., fixed vs. variable costs) to assess profitability and synergy potential.  
+     - **Regulators** want to ensure each component can stand on its own or be sold **without** disrupting the bank’s essential functions.
 
-**In short,** because the parent’s plan is geared toward a normal sale scenario, it does **not** satisfy the Section 6 requirement that the CIDI demonstrate a stand‑alone strategy for preserving economic viability, addressing interdependencies, and mitigating obstacles if the parent is already in resolution.
+5. **Evidence of Separability**  
+   - **What It Requires:**  
+     - A more detailed look at how each component can be **operationally and legally** detached from the main entity.  
+     - Identify which **contracts, technology systems, or regulatory approvals** are needed for a clean transfer.  
+   - **Why It Matters:**  
+     - Ensures that no insurmountable legal, technological, or operational barriers prevent a fast divestment.  
+     - Demonstrates “feasibility of separation” so that the divestiture doesn’t stall during resolution.
 
----
+   - **Additional Detail – Operational & Legal Analysis:**  
+     - **Interconnections & FMU/Agent Bank Dependencies:** Show how components rely on external payment, clearing, and settlement services. If these are critical to the component’s operations, detail how that reliance will be preserved or replicated post-divestiture.  
+     - **Mitigating Actions for Risks to Separability:** Note any pre-emptive steps (e.g., contracts with redundant service providers) to ensure the component remains viable on its own.
 
-## 2. Outline of What the CIDI’s Resolution Submission Must Address
+6. **Timing Considerations**  
+   - **What It Requires:**  
+     - Indicate how quickly each franchise component could be put up for sale or transferred (days, weeks, months) in a distressed environment.  
+   - **Why It Matters:**  
+     - In resolution, the **speed** of the transaction correlates directly with preserving franchise value.  
+   - **Additional Detail – Data Room & Preparatory Steps:**  
+     - Highlight the **process** for establishing a virtual data room, pre-collecting key financial/statutory reports, and any documentation that **facilitates bidder due diligence**.  
+     - Emphasize existing capabilities or frameworks in place for rapid marketing of the asset.
 
-Below is a high-level outline aligned with Section 6 requirements. It explains how CIBC USA (the CIDI) should structure its own submission to demonstrate an orderly resolution process, under the assumption that the parent is insolvent.
+7. **Alignment with the Resolution Strategy (especially for Group A CIDI)**  
+   - **What It Requires:**  
+     - Confirm that the franchise components collectively fulfill or advance the resolution plan’s major objectives (e.g., raising liquidity, reducing complexity, ensuring continuity of critical functions).  
+   - **Why It Matters:**  
+     - Regulators will gauge whether each separable component can meaningfully address the bank’s systemic risk or capital shortfalls in resolution.  
+   - **Additional Detail – Combining Components:**  
+     - Explain whether selling certain components together might **maximize value** due to shared client bases or overlapping product lines.
 
-### I. Introduction
-- **Objective:**  
-  - Show that CIBC USA can operate independently from the parent, even when the parent is in resolution.  
-  - Confirm the assumption that the parent (and affiliates) are undergoing their own insolvency proceedings.
-
-### II. Bridge Bank Strategy and Separation Analysis
-- **Bridge Bank Strategy:**  
-  - Lay out how a bridge bank would preserve the CIDI’s franchise value if the parent collapses.  
-  - Specify which critical functions (e.g., deposit-taking, payment systems) would transition into the bridge structure.  
-- **Prerequisite Actions:**  
-  - Identify the legal, operational, and financial steps the CIDI must take beforehand to enable a swift, cost‑effective move into a bridge bank if needed.
-
-### III. Detailed Considerations for Separation
-
-1. **Legal Considerations:**
-   - **Actions & Issues:**  
-     - Detail which contracts or intercompany arrangements must be renegotiated or terminated.  
-     - Note regulatory approvals and any litigation or cross-default risks.  
-   - **Remediation:**  
-     - Plan for how these issues will be resolved if the parent cannot cooperate.
-
-2. **Operational Considerations:**
-   - **People, Processes, Technology:**  
-     - Explain how CIBC USA will ensure continuity of staff, IT systems, and back-office functions without the parent’s funding or oversight.  
-     - Describe governance changes required to reflect CIBC USA’s standalone status.
-   - **Implementation Plan:**  
-     - Present a timeline with key tasks and milestones for achieving operational autonomy.
-
-3. **Financial Considerations:**
-   - **Balance Sheet Analysis:**  
-     - Assess capital adequacy, liquidity, and other financial factors essential for an independent CIDI.  
-     - Include contingency planning for withdrawing parent funding or guarantees.
-   - **Financial Actions:**  
-     - Outline any restructuring or reallocation of assets and liabilities to stabilize operations under separation.
-
-4. **Communications Strategy:**
-   - **Internal & External Communications:**  
-     - Indicate how the CIDI will organize internal teams and decision-making forums in a crisis.  
-     - Describe external communications to regulators, customers, counterparties, and employees regarding the parent’s resolution and CIBC USA’s separation.
-
-### IV. Bridge Bank vs. Receivership Components
-- **Criteria for Transfer:**  
-  - Show how you’ll decide which assets, liabilities, and contracts go into the bridge bank and which remain in receivership.  
-- **Rationale:**  
-  - Explain why non-core or problematic items may remain in receivership, ensuring the CIDI’s core franchise remains viable.
-
-### V. Summary and Remediation Steps
-- **Integrated Plan Recap:**  
-  - Summarize how legal, operational, and financial strategies align to allow prompt separation from the parent.  
-- **Barriers & Mitigation:**  
-  - Enumerate any hurdles, from shared IT systems to contractual obligations, and explain how these are resolved or minimized under parent insolvency conditions.
+8. **Potential Obstacles and Mitigations**  
+   - **What It Requires:**  
+     - Identify barriers that could impede a timely sale—such as shared services, legal entanglements, FMU reliance, or cross-default clauses.  
+     - Outline **mitigation steps** or “stand-alone” arrangements that circumvent these obstacles.  
+   - **Why It Matters:**  
+     - A plan that fails to address known hurdles will appear unrealistic. Regulators expect a thorough articulation of **risks** and corresponding solutions.
 
 ---
 
-### Conclusion
+## Conclusion
 
-By following this outline, the CIDI will develop a **self-contained resolution strategy** that accounts for the parent’s being in resolution and the resulting unavailability of normal divestment pathways. Such a plan ensures:
+To fulfill this regulatory text, the CIDI’s response must:
 
-- **Standalone Resilience:** CIBC USA’s franchise value remains intact, with access to capital, operations, and governance structures independent of the parent.  
-- **Bridge Bank Clarity:** Clear criteria for forming a bridge bank and transferring crucial business elements under FDIC receivership.  
-- **Timely & Cost-Effective Separation:** A defined roadmap for mitigating obstacles, renegotiating contracts, and ensuring business continuity—even without the parent’s support.  
+- **Identify Franchise Components** using clear, formalized criteria (annual reviews, thresholds for significance) and demonstrate each component’s **operational discreteness** and **market interest**.  
+- **Demonstrate Marketability & Viability** by showing potential acquirer demand and analyzing value drivers (revenue, cost structure, client relationships).  
+- **Ensure Feasibility of Separation** via legal/operational assessments, addressing how FMU dependencies and other interconnections will be handled.  
+- **Detail Timing & Preparedness**, including any data-room processes to expedite bidder due diligence.  
+- **Show Alignment with Resolution Strategy**, especially for Group A CIDI, by confirming that collectively these components provide sufficient “optionality” and “value” for an orderly resolution.  
+- **Address Obstacles and Mitigate Them**, ensuring no fatal blockers to a timely transaction.
 
-This contrasts with a typical **parent-centric divestment plan**, which presupposes a functioning parent capable of managing a sale—an assumption Section 6 explicitly sets aside.
+By integrating these expanded details into the plan, the CIDI demonstrates a **robust approach** to identifying and readying franchise components that can be divested quickly and effectively, preserving value and minimizing risk during resolution.
