@@ -1,88 +1,86 @@
-Below is a **combined gap analysis** and **concise outline** of what must be provided under subsection (vii). The gap analysis highlights **shortcomings** in the stakeholder’s existing response, and the outline details **exactly** what the CIDI should disclose—only incorporating items **relevant** to the regulatory text.
+Below is a **gap analysis** that compares the **regulatory requirement** for non‐deposit claims to the **stakeholder responses** provided. The requirement states that the CIDI must describe its **systems and processes** used to identify unsecured creditors (non-deposit), the **location of records**, **recordkeeping practices**, any **inter‐creditor agreements**, and the capability to **produce a list** (name, address, liability type, amount owed) for each unsecured creditor—including those at each **material entity** subsidiary.
 
 ---
 
-## **GAP ANALYSIS**
+## **Regulatory Requirement (High‐Level Recap)**
 
-**Stakeholder Response (vii):**  
-> *“CIBC’s US registered broker‐dealer is CIBC World Markets Corp. Please refer to slide 8 of the ‘US‐Entity Organizational Structure and Naming Convention Standards.’ Controllership can provide descriptions on the interconnectedness between legal entities. Please reach out to Emily Lundberg.”*
-
-1. **Insufficient Service Description:**  
-   - The response does not specify **which services** (e.g., trade execution, advisory) the broker‐dealer provides to the CIDI or its customers.
-
-2. **No Integration Detail:**  
-   - It references an organizational chart but **doesn’t explain** how the broker‐dealer is integrated operationally (shared systems, branding, or cross‐selling with the CIDI).
-
-3. **No Analysis of Discontinuation Risks:**  
-   - The response lacks any **discussion** of what happens if broker‐dealer services are abruptly halted (impact on operations, customers, compliance, etc.).
-
-4. **Missing Mitigation Measures:**  
-   - There is no mention of **actions** the CIDI would take to reduce disruption—such as alternative providers, transition services, or contractual safeguards.
-
-5. **Over‐Reliance on External Reference:**  
-   - Pointing to slides or an individual contact does not meet the requirement for a **self‐contained** explanation or plan.
+The CIDI’s full resolution submission must:
+1. **Identify & Describe** the systems and processes that track **unsecured, non‐deposit creditors** of the CIDI (and each material subsidiary).
+2. **Identify Recordkeeping Practices**: Show where and how these records are maintained, including inter‐creditor agreements.
+3. **Demonstrate Capability**: The bank must be able to pull each unsecured creditor’s name, address, nature of liability, and amount owed—or, for indentured securities, the indenture trustee.
 
 ---
 
-## **OUTLINE: WHAT MUST BE PROVIDED TO SATISFY REQUIREMENT (vii)**
+## **Stakeholder Responses**
 
-### 1. **Description of the Broker‐Dealer Relationship**
+### 1. **Justin’s Response**
+- Summarizes **balance sheet data** showing total liabilities (\$51.4 billion), of which \$49.4 billion are deposits.
+- Concludes **\$2 billion** in non‐deposit claims, primarily:
+  - **\$1.15 billion** note payable to a parent affiliate (CIBC Investments USA Inc.).
+  - **\$850 million** from CRA future capital contributions, derivative liabilities, etc.
+- References “Finance monthly LE reports” for tracking, but does **not** describe how the bank locates all unsecured creditors beyond these broad categories.
 
-- **Identify the Entity**  
-  - Name “CIBC World Markets Corp.” as the relevant broker‐dealer (subsidiary or affiliate status, if not already clear).  
-  - Indicate if it’s registered under FINRA, SEC, or other regulatory bodies.
-
-- **Services to the CIDI or CIDI Customers**  
-  - Specify what products/functions the BD handles, e.g., trade execution, custody, advisory, underwriting.  
-  - Clarify whether the BD supports the CIDI’s own operational needs (like treasury/capital markets) or provides offerings to the CIDI’s retail/commercial clients.
-
-- **Integration with the CIDI’s Business & Operations**  
-  - Note any **shared resources** (IT systems, staff, brand elements) or **cross‐selling** practices.  
-  - State if these BD activities are **crucial** to any of the CIDI’s core business lines.
-
----
-
-### 2. **Analysis of Potential Challenges from Discontinuation**
-
-- **Operational Gaps**  
-  - Explain how a sudden cutoff of BD services would affect the CIDI’s day‐to‐day (e.g., halted trading, lost product lines).  
-  - Note **compliance exposures** (e.g., licensing, recordkeeping) if the BD is abruptly gone.
-
-- **Customer & Reputational Risks**  
-  - Address potential **client disruption** (loss of brokerage or advisory services).  
-  - Consider reputational harm if customers can’t access expected investment capabilities.
-
-- **Legal & Contractual Considerations**  
-  - Reference **any intercompany agreements** or contractual dependencies (clearing, data sharing).  
-  - Clarify if client data or transaction records are under the BD’s control and how that might be affected by discontinuation.
+### 2. **Dan’s Response (Credit Risk Management)** 
+- Introduces the **Net Exposure Report** for tracking correspondent exposures and concentration ratios.
+- Mentions the **Correspondent Credit Risk Management Policy**, used to capture and monitor aggregate exposures.
+- Explains how Letters of Credit and **Capital Markets** exposures (derivatives) feed into the Net Exposure Report.
+- References **ACBS** for internal credit approvals/LCs, **Collateral Snapshot** for derivative mark‐to‐market, and **ISDA/CSA** for margin/collateral.
+- Mentions “PrivateLink” repository for outstanding agreements but does not fully detail how they handle **record location** or how to produce a list of every unsecured creditor (complete with name, address, liability type, etc.).
+- Focuses on **correspondent institutions** (counterparties) but does not explicitly address other non‐deposit liabilities (e.g., trade payables, inter‐creditor agreements, or potential for other subsidiaries to have unsecured creditors).
 
 ---
 
-### 3. **Actions to Mitigate Such Challenges**
+## **Gap Analysis**
 
-- **Contingency Plans & Alternative Providers**  
-  - Identify backup broker‐dealers or third‐party arrangements that could step in.  
-  - Consider whether the CIDI can **temporarily insource** key BD functions.
+1. **Location & Recordkeeping of Unsecured Claims**  
+   - The responses do not **clearly state** where records are kept, whether physically or digitally, nor how they can be **accessed** in a resolution scenario.  
+   - Although “ACBS,” “Collateral Snapshot,” and “Net Exposure Report” are mentioned, we lack a **unified explanation** of how all non‐deposit liabilities are cataloged beyond capital markets/correspondent lines.
 
-- **Transition Services & Contractual Safeguards**  
-  - Document any **transition service agreements** that reduce the impact if the BD separates.  
-  - Note clauses enabling **smooth migration** of client accounts or data in a disruption.
+2. **Comprehensive System/Process Description**  
+   - Dan’s explanation outlines Net Exposure Reports for counterparties, but:  
+     - **Other** potential unsecured creditors (accounts payable, trade creditors, settlement obligations, or those at material subsidiaries) aren’t fully addressed.  
+     - There is no mention of **processes** for scanning the general ledger or other systems to ensure that **all** unsecured liabilities are captured in real time.
 
-- **Operational & Technological Separation**  
-  - Describe any **standalone systems** or resources that help the CIDI function if the BD fails.  
-  - Include mention of staff training, alternate workflows, or **disaster recovery** relevant to the broker‐dealer link.
+3. **Inter‐Creditor Agreements**  
+   - The text requires identifying if there are **agreements** ranking or structuring claims among unsecured creditors.  
+   - Neither response explicitly states whether any subordination or inter‐creditor agreements exist beyond standard ISDA/CSA for derivatives. This is a gap.
+
+4. **Capability to Identify Each Creditor (Name, Address, Amount, Nature)**  
+   - Dan references some forms of identification for counterparties in **Capital Markets** and **LC** lines.  
+   - However, it’s unclear if the bank can produce a **granular list** with each creditor’s name, address, type of liability, and amount across **all** non‐deposit liabilities (including trade payables, lease liabilities, or other payables).  
+   - Justin’s data lumps certain liabilities (e.g., “Accounts payable,” “Accrued expenses”) but does not confirm the system or how to retrieve individual creditor details.
+
+5. **Material Entity Subsidiaries**  
+   - The text requires coverage for each **CIDI subsidiary** that is a material entity.  
+   - The responses focus on CIBC Bank USA, with limited mention of any other material subsidiary. If any exist, we do not see how their non‐deposit liabilities are tracked or recorded.
+
+6. **Record Location & Timeliness**  
+   - The requirement specifies describing the **location** of the bank’s records and recordkeeping practices.  
+   - While references to monthly/quarterly reporting cycles exist, neither stakeholder response explains how **timely** or easily retrievable the data is in a potential resolution event.
 
 ---
 
-### 4. **Summary of Required Documentation**
+## **Summary**
 
-1. **Clear Description of the BD’s Role & Interdependencies**  
-   - Self‐contained explanation (not just a reference to slides or external individuals).  
-2. **Comprehensive Risk Analysis** for Discontinuation  
-   - Operational, customer, and legal exposures if services suddenly end.  
-3. **Detailed Mitigation Measures**  
-   - Plans and backup strategies so CIDI can withstand the BD’s unavailability.
+While the stakeholder responses outline:
+- Some high‐level **balances** for non‐deposit liabilities (\$2 billion),
+- The existence of **Credit Risk Management** processes for correspondents and derivatives,
+- And references to multiple **reports** (Net Exposure, Collateral Snapshot, ACBS, etc.),
 
----
+**they do not fully address**:
 
-**By providing the above details—filling in the current gaps on service descriptions, integration, potential discontinuation risks, and mitigation strategies—the CIDI’s submission will fully meet the requirement in subsection (vii).**
+- A **central or integrated system** that captures **all** unsecured creditors (beyond capital markets/correspondents).  
+- The **exact location** and format of records for each type of unsecured liability.  
+- Whether any **inter‐creditor agreements** exist and how they are documented.  
+- The ability to **produce** each unsecured creditor’s **name, address, liability nature,** and **amount** on demand.  
+- Whether and how **material entity subsidiaries** maintain their own (potentially separate) unsecured liabilities tracking.
+
+**Next Steps**: The CIDI’s final submission should explicitly **fill these gaps** by detailing:
+
+1. **Full inventory** of non‐deposit liabilities—covering trade payables, obligations, or anything beyond deposit accounts.  
+2. **Systems** used to track each category, with emphasis on how data can be **consolidated** or segmented by entity.  
+3. **Record location** (physical/digital), frequency of updates, and **access** in a resolution scenario.  
+4. Any **inter‐creditor agreements** or priority arrangements in place.  
+5. Demonstration of the bank’s **capability** to list each creditor (or indenture trustee) with the required details.
+
+Only by addressing these points can the bank meet the complete non‐deposit claims requirement.
