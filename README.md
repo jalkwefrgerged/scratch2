@@ -1,281 +1,64 @@
-```
-███╗   ██╗██╗   ██╗███╗   ███╗███████╗██████╗  █████╗ ██╗
-████╗  ██║██║   ██║████╗ ████║██╔════╝██╔══██╗██╔══██╗██║
-██╔██╗ ██║██║   ██║██╔████╔██║█████╗  ██████╔╝███████║██║
-██║╚██╗██║██║   ██║██║╚██╔╝██║██╔══╝  ██╔══██╗██╔══██║██║
-██║ ╚████║╚██████╔╝██║ ╚═╝ ██║███████╗██║  ██║██║  ██║██║
-╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
-```
+Below is an updated explanation of why **relying solely on the parent company’s plan for divestment** does **not** fulfill the CIDI’s regulatory requirement under Section 6. The key issue is that the regulatory text expressly assumes the **parent company and its affiliates are in resolution**, meaning the parent is not in a position to provide support or undertake a normal divestment process.
 
-The official example scripts for the [Numerai](https://numer.ai/) Data Science Tournament.
+---
 
-# Contents
+### 1. Focus on Parent’s Perspective, Not CIDI’s Assumed Scenario
 
-- [Quick Start](#quick-start)
-- [Datasets](#datasets)
-- [Next Steps](#next-steps)
-  - [Research](#research)
-  - [Staking](#staking)
-  - [Automation](#automation)
-- [FAQ](#faq)
-- [Support](#support)
+- **Parent in Resolution:**  
+  Section 6 explicitly requires analyzing the CIDI’s separation under the assumption that the parent company (and its affiliates) are already **in resolution** under 11 U.S.C. 101 et seq. or another insolvency regime.  
+  - A **parent divestment plan** typically addresses the parent’s strategy to sell or spin off a subsidiary under normal or near‑normal conditions.  
+  - It does **not** address how CIBC USA (the CIDI) would continue independently while the parent is itself insolvent and unable to provide either financial support or an orderly sell‑off process.
 
-# Quick Start
+- **CIDI’s Viability and Franchise Value Post-Separation:**  
+  The parent’s plan may not detail how **CIBC USA** will maintain operations, liquidity, and franchise value if the parent can no longer backstop it.  
+  - **Regulatory Requirement:** Section 6 mandates a demonstration that the CIDI remains viable as a standalone entity when the parent is in resolution and presumably **unable** to assist.
 
-```
-pip install -U pip && pip install -r requirements.txt
-python example_model.py
-```
+---
 
-The example script model will produce a `validation_predictions.csv` file which you can upload at
-https://numer.ai/tournament to get model diagnostics.
+### 2. Insufficient Detail on Operational Continuity and Separation Steps
 
-> TIP: The example_model.py script takes ~45-60 minutes to run. If you don't want to wait, you can upload
-> `example_diagnostic_predictions.csv` to get diagnostics immediately.
+- **Operational Continuity:**  
+  The parent’s divestment plan often focuses on restructuring at the parent level. It may not specify:
+  - The **operational steps** CIBC USA must take to sever shared systems and processes while the parent is in crisis.
+  - How CIBC USA would handle **employee transitions, IT dependencies, or intercompany contracts** that could automatically terminate if the parent is in resolution.
 
-![upload_diagnostics](https://user-images.githubusercontent.com/978353/132552583-26e0f77c-b81b-47d6-96ed-3242bdb00c4f.gif)
+- **Separation Actions:**  
+  Section 6 calls for a clear, **cost‑effective, and timely** path to separate CIBC USA from the parent. A parent divestment plan typically assumes the parent has the luxury to manage the transaction. Under the Section 6 scenario, the parent is in distress, meaning:
+  - The CIDI must have **its own** blueprint to remain operational if the parent’s resolution triggers immediate organizational upheaval.
 
-If the current round is open (Saturday 18:00 UTC through Monday 14:30 UTC), you can submit your predictions and start
-getting results on live tournament data. You can create your submission by uploading the `example_predictions.csv` or
-generated `tournament_predictions.csv`
-file at https://numer.ai/tournament
+---
 
-![upload_predictions](https://user-images.githubusercontent.com/978353/132553658-73b2a1ed-ac80-4900-949b-c9102085292c.gif)
+### 3. Identification and Mitigation of Barriers Under Parent Insolvency
 
-# Datasets
+- **Focus on Obstacles When the Parent Fails:**  
+  If the parent is in resolution, it can’t provide funding, facilitate an orderly migration of contracts, or ensure continuity of shared services.  
+  - Section 6 requires the **CIDI** to explicitly identify potential barriers that arise specifically from that scenario (e.g., insolvent parent no longer paying shared service vendors, or cross‑defaults on contracts).  
+  - A normal “divestment” plan won’t highlight or mitigate these insolvency-driven obstacles at the CIDI level.
 
-### numerai_training_data
+- **Remedial Measures:**  
+  Regulators expect detailed **remediation steps** to eliminate or minimize these obstacles.  
+  - The parent’s plan may mention broad corporate strategies but rarely provides the granular, **CIDI-specific** contingency measures necessary if the parent collapses.
 
-- Description: Labeled training data
+---
 
-- Dimensions: ~2M rows x ~1K columns
+### 4. Bridge Bank Strategy and Receivership Components
 
-- Size: ~10GB CSV (float32 features), ~5GB CSV (int8 features), ~1GB Parquet (float32/int8 features)
+- **Bridge Bank vs. Traditional Divestment:**  
+  Section 6 specifically contemplates the possibility of a **bridge bank** to preserve the CIDI’s franchise value.  
+  - In parent divestment scenarios, the usual assumption is a strategic sale. But if the parent is already **in resolution**, the plan must detail whether (and how) a bridge bank structure would be formed to maintain the CIDI’s critical functions.  
+  - A parent plan rarely delves into the **step‑by‑step** approach for forming and running a bridge bank—particularly for the U.S. depository subsidiary—under FDIC resolution processes.
 
-- Columns:
+---
 
-  - "id": string labels of obfuscated stock IDs
+### Conclusion: What CIBC USA Actually Needs to Address
 
-  - "era": string labels of points in time for a block of IDs
+- **Standalone Resolution Focus:**  
+  CIBC USA’s plan must show **how it will operate** if the parent cannot, ensuring the CIDI’s economic viability and franchise value as a bridge institution or otherwise.
+  
+- **Specific to Parent Insolvency Scenario:**  
+  The submission must identify the unique obstacles triggered by the parent’s resolution, and detail immediate, actionable strategies to overcome them—far beyond the scope of a normal parent-led divestment.
 
-  - "data_type": string label "train"
+- **Operational, Legal, and Financial Remediation:**  
+  A thorough separation plan detailing how CIBC USA would manage legal contracts, shared technology, liquidity sources, and governance in a situation where the parent is no longer capable of assistance.
 
-  - "feature\_...": integer or floating-point numbers, obfuscated features for each stock ID
-
-  - "target\_": floating-point numbers, various measures of returns for each stock ID
-
-- Notes: Check out the analysis_and_tips notebook for a detailed walkthrough of this dataset.
-
-### numerai_validation_data
-
-- Description: Labeled holdout set used to generate validation predictions and for computing validation metrics
-
-- Dimensions: ~540K rows x ~1K columns
-
-- Size: ~2.5GB CSV (float32 features), ~1.1GB (int8 features), ~210MB Parquet (float32/int8 features)
-
-- Columns:
-
-  - "id": string labels of obfuscated stock IDs
-
-  - "era": string labels of points in time for a block of IDs
-
-  - "data_type": string label "validation"
-
-  - "feature\_...": floating-point numbers, obfuscated features for each stock ID
-
-  - "target\_": floating-point numbers, various measures of returns for each stock ID
-
-- Notes: It is highly recommended that you do not train on the validation set. This dataset is used to generate all validation metrics in the diagnostics API.
-
-### numerai_tournament_data
-
-- Description: Unlabeled feature data used to generate tournament predictions (updated weekly)
-
-- Dimensions: ~1.4M rows x ~1K columns
-
-- Size: ~6GB CSV (float32 features), ~2.1GB (int8 features), ~550MB Parquet (float32/int8 features)
-
-- Columns:
-
-  - "id": string labels of obfuscated stock IDs
-
-  - "era": string labels of points in time for a block of IDs
-
-  - "data_type": string labels "test" and "live"
-
-  - "feature\_...": floating-point numbers, obfuscated features for each stock ID
-
-  - "target\_": NaN (not-a-number), intentionally left blank
-
-- Notes: Use this file to generate your tournament submission. This file changes every week, so make sure to download the most recent version of this file each round.
-
-### numerai_live_data
-
-- Description: Unlabeled feature data used to generate live predictions only (updated weekly)
-
-- Dimensions: 5.3K rows x ~1K columns
-
-- Size: ~24MB CSV (float32 features), ~11MB CSV (int8 features), ~3MB Parquet (float32/int8 features)
-
-- Columns:
-
-  - "id": string labels of obfuscated stock IDs
-
-  - "era": string labels of points in time for a block of IDs
-
-  - "data_type": string labels "test" and "live"
-
-  - "feature\_...": floating-point numbers, obfuscated features for each stock ID
-
-  - "target\_": NaN (not-a-number), intentionally left blank
-
-- Notes: Use this file to generate the live only portion of your tournament submission if your test predictions are not changing and saved. This file changes every week, so make sure to download the most recent version of this file each round.
-
-### example_validation_predictions
-
-- Description: The predictions generated by the example_model on the numerai_validation_data
-
-- Dimensions: ~540K rows x 1 column
-
-- Size: ~14MB CSV
-
-- Columns:
-
-  - "id": string labels of obfuscated stock IDs
-
-  - "prediction": floating-point numbers between 0 and 1 (exclusive)
-
-- Notes: Useful for ensuring you can get diagnostics and debugging your prediction
-  file if you receive an error from the diagnostics API. This is what your uploads to diagnostics should look like (same ids and data types).
-
-### example_predictions
-
-- Description: The predictions generated by the example_model on the numerai_tournament_data
-
-- Dimensions: ~1.4M rows x 1 column
-
-- Size: ~37MB CSV
-
-- Columns:
-
-  - "id": string labels of obfuscated stock IDs
-
-  - "prediction": floating-point numbers between 0 and 1 (exclusive)
-
-- Notes: Useful for ensuring you can make a submission and debugging your prediction
-  file if you receive an error from the submissions API. This is what your submissions
-  should look like (same ids and data types).
-
-### old_data_new_val
-
-- Description: The legacy validation data mapped onto the new validation period
-
-- Dimensions: ~540K rows x ~310 columns
-
-- Size: ~69MB Parquet
-
-- Columns:
-
-  - "id": string labels of obfuscated stock IDs
-
-  - "era": string labels of points in time for a block of IDs
-
-  - "data_type": string label "validation"
-
-  - "feature\_...": floating-point numbers, obfuscated features for each stock ID
-
-  - "target\_": floating-point numbers, various measures of returns for each stock ID
-
-- Notes: Run your legacy models (models trained on the legacy dataset) against this file to generate validation predictions that are comparable to your new models (models trained on the new dataset).
-
-# Next Steps
-
-## Research
-
-The example model is a good baseline model, but we can do much better. Check out example_model_advanced for the best model made by Numerai's internal research team (takes 2~3 hours to run!) and learn more about the underlying concepts used to construct the advanced example model in the analysis_and_tips notebook.
-
-Check out the [forums](https://forum.numer.ai/) for in depth discussions on model research.
-
-## Staking
-
-Once you have a model you are happy with, you can stake [NMR](https://www.coinbase.com/price/numeraire) on it to start earning rewards.
-
-Head over to the [website](https://numer.ai/tournament) to get started or read more about staking in our [official rules and getting started guide](https://docs.numer.ai/tournament/learn#staking).
-
-## Automation
-
-You can upload your predictions directly to our [GraphQL API](https://api-tournament.numer.ai/) or through the [Python client](https://github.com/uuazed/numerapi/).
-
-To access the API, you must first create your API keys in your [account page](https://numer.ai/account) and provide them to the client:
-
-```python
-example_public_id = "somepublicid"
-example_secret_key = "somesecretkey"
-napi = numerapi.NumerAPI(example_public_id, example_secret_key)
-```
-
-After instantiating the NumerAPI client with API keys, you can then upload your submissions programmatically:
-
-```python
-# upload predictions
-model_id = napi.get_models()['your_model_name']
-napi.upload_predictions("tournament_predictions.csv", model_id=model_id, version=2) # version=2 for the ~1K features
-```
-
-The recommended setup for a fully automated submission process is to use Numerai Compute. Please see the
-[Numerai CLI documentation](https://github.com/numerai/numerai-cli) for instructions on how to deploy your
-models to AWS.
-
-# FAQ
-
-### What are the system requirements?
-
-- Minimum: 16GB RAM and 4 core (Intel i5) / 6 cores (AMD Ryzen 5)
-- Recommended: 32GB RAM and 8 core (Intel i7/i9) / 12 cores (AMD Ryzen 7/9)
-
-### What exactly is in the Numerai dataset?
-
-The Numerai Dataset contains decades of historical data on the global stock market. Each era represents a time period and each id represents a stock. The features are made from market and fundamental measures of the companies, and the targets are a measure of return.
-
-The stock ids, features, and targets are intentionally obfuscated.
-
-### How often is the dataset updated?
-
-The historical portions of the dataset (training_data, validation_data) are relatively static and is updated about every 3-6 months, usually with just more rows.
-
-The live portion of the dataset (tournament_data) is updated every week and represents the latest state of the global stock market.
-
-### What is Parquet?
-
-[Parquet](https://databricks.com/glossary/what-is-parquet) is an efficient and performant file format that is IO optimized for reading in subsets of columns at a time.
-
-Use the parquet versions (instead of the standard CSV) of the dataset files to minimize time spent on IO (downloading and reading the file into memory).
-
-Use the int8 version (features are stored as int8 instead of the standard float32) of the parquet file to further minimize memory usage.
-
-### What is the "new" vs "legacy" dataset?
-
-In September of 2021, Numerai released a new version of the dataset. Read more about it [here](https://medium.com/numerai/numerais-super-massive-data-release-d3ca4a7a5feb).
-
-Models trained on the legacy dataset will continue to work, but it is highly recommended that everyone upgrade to the new dataset because of the major performance improvements.
-
-All example code in this repo has been updated to work with the new dataset only.
-
-### Where can I find this legacy dataset?
-
-You can continue to download the legacy dataset from the website and the API, but it will be eventually deprecated.
-
-Use the `dataset` query in the [GraphQL API](https://api-tournament.numer.ai/) _without passing any round number_ to download the legacy dataset zip.
-
-### How should I migrate my legacy models to the new dataset?
-
-The easiest way to get started with the new dataset is to check out the new example models and analysis and tips notebook in this repo.
-
-Also check out this [deep dive](https://forum.numer.ai/t/super-massive-data-release-deep-dive/4053) on the new dataset in the forum.
-
-# Support
-
-If you need help or have any questions, please connect with us on our [community chat](http://community.numer.ai/) or [forums](https://forum.numer.ai/).
-
-If something in this repo doesn't work, please [file an issue](https://github.com/numerai/example-scripts/issues).
+In short, the parent’s divestment approach is insufficient because **Section 6 presupposes the parent is in resolution** and demands a CIDI-centric plan ensuring CIBC USA’s continuity, viability, and orderly separation under those distressed conditions.
