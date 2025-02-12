@@ -1,99 +1,102 @@
-Below is a consolidated document that first explains **why the stakeholder’s reliance on the parent company’s divestment plan is insufficient** to meet Section 6 requirements, then **transitions into a high-level outline** of what the CIDI’s own resolution submission should address.
+Below is a revised version of the consolidated document. It first explains why **relying solely on the parent company’s plan to sell off CIBC USA** fails to meet the regulatory requirement under Section 6, given the assumption that the parent is itself in resolution. It then transitions into an outline of what the CIDI’s resolution submission should address.
 
 ---
 
-## 1. Why the Stakeholder’s Reliance on the Parent’s Divestment Plan Is Insufficient
+## 1. Why the Stakeholder’s Reliance on the Parent’s Plan to Sell CIBC USA Is Insufficient
 
-Section 6 explicitly assumes that the **parent company and its affiliates are in resolution** under 11 U.S.C. 101 et seq. (or another insolvency regime). Under these distressed conditions, the parent is **not** in a position to provide orderly divestment or continued support. A parent-centric plan typically:
+Under Section 6, the regulator assumes the **parent company and its affiliates are in resolution** under 11 U.S.C. 101 et seq. (or another insolvency regime). This means the parent cannot be counted on for an orderly transaction or divestment. A parent-focused plan on how it might “sell” the subsidiary in normal or near-normal conditions falls short because:
 
-1. **Focuses on Normal or Near-Normal Divestment:**
-   - Parent-level strategies assume the ability to manage the spin‑off or sale of the subsidiary in a controlled manner.
-   - This does **not** reflect the scenario in which the parent is insolvent and unable to protect or financially back the subsidiary (CIBC USA).
+1. **Scenario Misalignment:**  
+   - **Normal Divestment vs. Parent Insolvency:**  
+     The parent’s plan describes selling off CIBC USA as though the parent has the time, resources, and stability to orchestrate a strategic sale.  
+     - Under Section 6, the parent is itself in crisis and cannot oversee or fund a normal divestment process, leaving the CIDI to demonstrate how it would stand alone.
 
-2. **Lacks CIDI-Centric Continuity Measures:**
-   - The parent’s plan rarely details how CIBC USA would handle day-to-day operations, capital/liquidity management, or technology if the parent is no longer paying for or administering shared services.
-   - Section 6 demands a blueprint for **CIBC USA to stand alone** and remain economically viable, even if the parent is fully incapacitated.
+2. **Lack of CIDI-Centric Continuity Measures:**  
+   - The parent’s plan often omits how CIBC USA would maintain day-to-day operations if the parent is insolvent.  
+   - Section 6 demands the CIDI’s own blueprint for remaining economically viable—particularly for capital, liquidity, shared services, and IT support—without depending on the parent’s ability to manage a sale.
 
-3. **Does Not Address Separation Under Distress:**
-   - If the parent is in resolution, typical “divestment” steps (e.g., sale negotiations, transitional service agreements) may be unavailable or severely curtailed.
-   - Section 6 requires **timely and cost‑effective** separation actions designed with the parent already in crisis.
+3. **Failure to Address Distressed Separation Actions:**  
+   - **Parent Unable to Support:**  
+     If the parent is in resolution, transitional service agreements or orderly migration strategies typically assumed in a sale scenario may be unavailable.  
+   - **Regulatory Requirement:**  
+     Section 6 calls for a timely, cost‑effective separation plan specifically designed for the parent’s insolvency, not a standard divestment.
 
-4. **Fails to Identify and Mitigate Insolvency-Driven Barriers:**
-   - Under normal divestment plans, many potential barriers (like cross-default clauses or operational dependencies on the parent) are not considered acute obstacles.
-   - Section 6 requires the CIDI to list such obstacles **and** describe how they would be remediated if the parent can no longer fulfill its obligations.
+4. **Insufficient Identification of Insolvency-Driven Barriers:**  
+   - A normal sale plan rarely analyzes the immediate barriers triggered by parent insolvency (e.g., cross-default clauses, terminated shared-service arrangements).  
+   - The CIDI must list and mitigate these obstacles—particularly around legal contracts, technology dependencies, and vendor relationships—when the parent can no longer provide support.
 
-5. **Ignores the Bridge Bank Scenario:**
-   - A standard parent-led divestment strategy assumes a voluntary transaction.  
-   - Section 6 anticipates the potential need for a **bridge bank**, which is a mechanism used under FDIC receivership to preserve franchise value and critical operations. The parent’s plan generally does not delve into these **U.S. resolution specifics**.
+5. **Overlooking the Bridge Bank Option:**  
+   - A parent-led sale strategy presumes a voluntary transaction with a buyer.  
+   - Section 6 envisions a **bridge bank** solution if necessary, allowing CIBC USA’s critical operations and franchise value to continue under FDIC receivership. The parent’s plan generally does not delve into this U.S.-specific resolution mechanism.
 
-In summary, because the parent’s plan does not account for **the parent itself being in resolution**, it does **not** satisfy the regulatory requirement for demonstrating how the **CIDI** can independently maintain economic viability, address interdependencies, and mitigate obstacles in a distressed separation scenario.
+**In short,** because the parent’s plan is geared toward a normal sale scenario, it does **not** satisfy the Section 6 requirement that the CIDI demonstrate a stand‑alone strategy for preserving economic viability, addressing interdependencies, and mitigating obstacles if the parent is already in resolution.
 
 ---
 
 ## 2. Outline of What the CIDI’s Resolution Submission Must Address
 
-Below is a high-level outline that integrates Section 6 requirements. It explains how the CIDI should prepare its own submission to demonstrate an orderly resolution process, assuming the parent is in resolution and unable to provide support.
+Below is a high-level outline aligned with Section 6 requirements. It explains how CIBC USA (the CIDI) should structure its own submission to demonstrate an orderly resolution process, under the assumption that the parent is insolvent.
 
 ### I. Introduction
 - **Objective:**  
-  - Explain that the submission proves the CIDI’s ability to operate separately from the parent, even under distressed conditions.
-  - Acknowledge the assumption that the parent (and affiliates) are in resolution under an insolvency regime.
+  - Show that CIBC USA can operate independently from the parent, even when the parent is in resolution.  
+  - Confirm the assumption that the parent (and affiliates) are undergoing their own insolvency proceedings.
 
 ### II. Bridge Bank Strategy and Separation Analysis
 - **Bridge Bank Strategy:**  
-  - Outline how a bridge bank could preserve franchise value if the parent is insolvent.  
-  - Specify which critical functions would transfer into the bridge bank.  
+  - Lay out how a bridge bank would preserve the CIDI’s franchise value if the parent collapses.  
+  - Specify which critical functions (e.g., deposit-taking, payment systems) would transition into the bridge structure.  
 - **Prerequisite Actions:**  
-  - Identify the steps the CIDI must take beforehand (e.g., legal preparations, operational cutovers) to ensure the bridge bank is established promptly and smoothly.
+  - Identify the legal, operational, and financial steps the CIDI must take beforehand to enable a swift, cost‑effective move into a bridge bank if needed.
 
 ### III. Detailed Considerations for Separation
 
 1. **Legal Considerations:**
    - **Actions & Issues:**  
-     - Summarize required legal steps to sever ties with the parent, such as reviewing or renegotiating intercompany agreements.  
-     - Note any regulatory approvals or litigation risks that might arise.
+     - Detail which contracts or intercompany arrangements must be renegotiated or terminated.  
+     - Note regulatory approvals and any litigation or cross-default risks.  
    - **Remediation:**  
-     - Detail strategies for handling these issues if the parent is unable to cooperate (e.g., default clauses, forced contract terminations).
+     - Plan for how these issues will be resolved if the parent cannot cooperate.
 
 2. **Operational Considerations:**
-   - **People, Processes, and Technology:**  
-     - Identify how the CIDI will secure necessary IT systems, human resources, and back‑office functions without parent support.  
-     - Clarify governance adjustments required when the parent’s management can’t intervene.
+   - **People, Processes, Technology:**  
+     - Explain how CIBC USA will ensure continuity of staff, IT systems, and back-office functions without the parent’s funding or oversight.  
+     - Describe governance changes required to reflect CIBC USA’s standalone status.
    - **Implementation Plan:**  
-     - Provide a timeline for operational independence, indicating key milestones and resource needs.
+     - Present a timeline with key tasks and milestones for achieving operational autonomy.
 
 3. **Financial Considerations:**
    - **Balance Sheet Analysis:**  
-     - Assess capital, liquidity, and other financial needs to ensure standalone resilience.  
-     - Anticipate withdrawal or non-availability of parent funding.  
+     - Assess capital adequacy, liquidity, and other financial factors essential for an independent CIDI.  
+     - Include contingency planning for withdrawing parent funding or guarantees.
    - **Financial Actions:**  
-     - Explain how the CIDI will restructure or reallocate resources (e.g., transferring assets, liabilities) to stabilize its finances during separation.
+     - Outline any restructuring or reallocation of assets and liabilities to stabilize operations under separation.
 
 4. **Communications Strategy:**
-   - **Internal and External Communications:**  
-     - State how you’ll coordinate internal teams (risk, ops, legal) to handle the crisis scenario.
-     - Outline external communications to regulators, customers, counterparties, and employees.
+   - **Internal & External Communications:**  
+     - Indicate how the CIDI will organize internal teams and decision-making forums in a crisis.  
+     - Describe external communications to regulators, customers, counterparties, and employees regarding the parent’s resolution and CIBC USA’s separation.
 
-### IV. Defining the Components of Bridge Bank Versus Receivership
-- **Features of the Bridge Bank:**  
-  - List which assets, liabilities, and contracts are deemed critical and thus moved to the bridge bank.  
-  - Explain the criteria used to differentiate items that remain in receivership.
-- **Receivership Considerations:**  
-  - Clarify what is left behind and why (e.g., non-core assets, certain obligations).
+### IV. Bridge Bank vs. Receivership Components
+- **Criteria for Transfer:**  
+  - Show how you’ll decide which assets, liabilities, and contracts go into the bridge bank and which remain in receivership.  
+- **Rationale:**  
+  - Explain why non-core or problematic items may remain in receivership, ensuring the CIDI’s core franchise remains viable.
 
 ### V. Summary and Remediation Steps
-- **Overall Strategy Recap:**  
-  - Tie together the legal, operational, and financial angles to show an integrated plan for independence.
-- **Identified Barriers and Mitigation:**  
-  - Specifically list any obstacles (e.g., shared tech systems) and how the CIDI will mitigate them (e.g., stand-alone infrastructure, third-party vendor contracts).
+- **Integrated Plan Recap:**  
+  - Summarize how legal, operational, and financial strategies align to allow prompt separation from the parent.  
+- **Barriers & Mitigation:**  
+  - Enumerate any hurdles, from shared IT systems to contractual obligations, and explain how these are resolved or minimized under parent insolvency conditions.
 
 ---
 
-**By adopting this CIDI-specific outline**, the resolution submission will:
+### Conclusion
 
-- **Address the Assumption of Parent Resolution:** Demonstrate how the CIDI remains viable when the parent is insolvent.  
-- **Detail Required Separation Steps:** Clearly articulate the cost-effective, timely measures for forming a bridge bank or alternative structure.  
-- **Identify and Mitigate Obstacles:** Enumerate potential barriers and how they will be resolved under distressed conditions.  
-- **Preserve Franchise Value:** Ensure that the CIDI’s critical functions continue, protecting customers and maintaining economic viability.
+By following this outline, the CIDI will develop a **self-contained resolution strategy** that accounts for the parent’s being in resolution and the resulting unavailability of normal divestment pathways. Such a plan ensures:
 
-This contrasts with a normal corporate divestment plan (which presupposes a functioning parent) by **fully reflecting Section 6’s requirement** for a self-contained strategy that anticipates the parent’s inability to assist or to manage an orderly spin‑off.
+- **Standalone Resilience:** CIBC USA’s franchise value remains intact, with access to capital, operations, and governance structures independent of the parent.  
+- **Bridge Bank Clarity:** Clear criteria for forming a bridge bank and transferring crucial business elements under FDIC receivership.  
+- **Timely & Cost-Effective Separation:** A defined roadmap for mitigating obstacles, renegotiating contracts, and ensuring business continuity—even without the parent’s support.  
+
+This contrasts with a typical **parent-centric divestment plan**, which presupposes a functioning parent capable of managing a sale—an assumption Section 6 explicitly sets aside.
