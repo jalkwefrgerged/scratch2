@@ -1,9 +1,116 @@
-CIBC Bank USA reports total liabilities of approximately \$51.4 billion as of December 31, 2024, of which \$49.4 billion, or 96%, are deposits, leaving roughly \$2 billion in non‐deposit claims. A significant portion of these non‐deposit liabilities, around \$1.15 billion, arises from a note payable to CIBC Investments USA Inc. (an entity under CIBC Bancorp USA Inc.). Outside of that note payable, the Bank cites about \$850 million in other unsecured liabilities, primarily tied to Community Reinvestment Act (CRA) future capital contributions and derivative liabilities involving non‐correspondent entities. The Bank references “Finance monthly legal‐entity reports” for consolidated data on these amounts but does not expand on the specific triggers or recordkeeping methods used to track each component in real time.
+Below is a **reorganized draft** with the **Materiality Thresholds and Ongoing Assessment** section **integrated** into the **Overview** section as a **subsection**, preserving a smooth reading flow:
 
-To capture unsecured exposures, the Bank compiles a Correspondent Exposure Report, featuring a table that breaks down gross liability risk across various counterparties, including the entity known as “Canadian Imperial Bank of Commerce,” among others. In that table, line items for capital markets activities or other borrowings identify which counterparties carry negative mark‐to‐market exposures or short‐term funding lines. The Bank’s Credit Risk Management (CRM) team reviews aggregate exposure levels monthly and reports them to the Chief Credit Officer, with quarterly updates provided to the Correspondent Risk Committee as prescribed by the Bank’s Correspondent Credit Risk Management Policy. This policy outlines how unsecured funding exposures to each relevant institution are tracked. Within the exposure report, there are two primary schedules for identifying unsecured creditors: one labeled “Trade,” relating to letters of credit lines, and another labeled “Capital Markets,” covering derivative transactions. For any letters of credit that may be confirmed by an unsecured bank, the Bank clarifies that a separate deposit account is maintained to settle fees or drawdowns as they occur.
+---
 
-Under capital markets operations, the Bank tracks mark‐to‐market positions through a “Collateral Snapshot,” reflecting whether it has unsecured exposure due to negative valuations on derivative contracts. The Bank references the fact that once an institution is approved, it is recorded in the Net Exposure Report, typically under an International Swap and Derivatives Association (ISDA) Master Agreement with a Credit Support Annex (CSA). While this provides some insight into how the Bank monitors collateral and margin posting, no additional detail is given on how each unsecured exposure would be itemized by name, address, and precise liability type, should a resolution scenario require a full listing of creditors.
+## Off‐Balance‐Sheet Exposures
 
-With respect to CRA future capital contributions, the Bank indicates a commitment totaling \$218.4 million within its liabilities, but the nature and due dates of these contributions are not further described. Similarly, derivative liabilities on the balance sheet reach \$183.5 million, yet the Bank only mentions the mark‐to‐market approach for capturing negative valuations; details such as the underlying maturities, contract terms, or inter‐creditor agreements remain unstated. Other liabilities like accounts payable, accrued expenses, or settlement obligations appear in partial form on the Bank’s financial statement but are not separately enumerated as unsecured claims in a single repository. Additionally, while references to the monthly LE reports and net exposure frameworks exist, the Bank does not outline a central system ensuring that all unsecured liabilities, beyond correspondents or derivatives, are comprehensively captured and retrievable for resolution planning.
+### Overview of Key Off‐Balance‐Sheet Instruments
 
-In summary, the Bank identifies non‐deposit liabilities amounting to approximately \$2 billion, chiefly composed of an intercompany note payable, CRA‐related obligations, and derivative exposures. Certain risk monitoring practices, such as the Net Exposure Report, are in place to gauge and limit unsecured exposures, especially with correspondent counterparties. However, further detail would be needed to confirm how each unsecured creditor is recorded by name, address, nature of the liability, or amount owed, and how the Bank maintains or accesses these records under potential resolution conditions.
+CIBC enters into a variety of off‐balance‐sheet financial instruments to meet client financing needs and to facilitate lending, foreign trade, and investment activities. The principal categories of these instruments include:
+
+1. **Commitments to Extend Credit**  
+2. **Letters of Credit**  
+3. **Other Contractual Commitments** (e.g., CRA investments, recourse arrangements)  
+4. **Mortgage Loans Sold with Recourse**  
+
+Each of these exposures carries elements of credit and liquidity risk that **exceed** the amounts recorded on the Bank’s consolidated statement of financial condition, though many may never be drawn in full. All items are subject to CIBC’s standard credit approval, collateral, and risk monitoring processes.
+
+*(Note for internal drafting: **Check** if the Bank has other OBS activities—e.g., merchant processing guarantees, securities lending indemnifications, rep/warranty triggers on asset sales, or **derivative** exposures. If inapplicable, consider explicitly stating they are immaterial or not utilized.)*
+
+#### Materiality Thresholds and Ongoing Assessment
+
+In line with FDIC guidance, CIBC determines which off‐balance‐sheet exposures are **material** for resolution planning based on **(Placeholder: Insert relevant thresholds—e.g., a percentage of Tier 1 Capital, total assets, or risk‐weighted assets.)** Any OBS category that exceeds these thresholds in a stress scenario will be subjected to additional resolution planning analysis (e.g., liquidity impact, potential need to transfer or run off the exposure).
+
+*(Note for internal drafting: Clarify **how often** these thresholds are evaluated—e.g., quarterly, annually—and **where** stress scenarios or the supporting methodology are documented. Also consider specifying a timeframe for re‐evaluation if exposures change significantly.)*
+
+---
+
+### 1. Commitments to Extend Credit
+
+CIBC’s unfunded **credit extension commitments** include **commercial**, **commercial real estate**, **construction**, and **residential mortgage** facilities. These agreements obligate the Bank to lend funds if the borrower meets certain conditions (e.g., financial covenants).  
+- As of October 31, 2024, total commitments to extend credit amounted to \$14.74 billion (down from \$21.18 billion at October 31, 2023).  
+- A significant portion of these commitments has terms of **less than one year**, and many may **expire without being drawn**, thus not necessarily representing future cash requirements.  
+- The Bank maintains an **allowance for unfunded commitments** of \$73.9 million at October 31, 2024 (versus \$81.3 million at October 31, 2023), recorded under “other liabilities.”  
+
+(Placeholder: **Insert a table** showing the breakdown of 2024 vs. 2023 commitments by type, along with their related allowances.)
+
+*(Note for internal drafting: Consider **expanding** on the **nature and typical purposes** of each commitment type. Also clarify whether any of these commitments include special termination clauses or triggers that would become relevant in resolution.)*
+
+---
+
+### 2. Letters of Credit
+
+CIBC issues **standby letters of credit** (financial and performance) and **commercial letters of credit** to support client payment obligations or facilitate domestic and international trade.  
+- At October 31, 2024, total letters of credit reached \$1.36 billion, up slightly from \$1.31 billion at October 31, 2023.  
+  - Of these, \$594 million represented standby letters of credit, \$100 million were performance standby letters, and \$669 million were commercial letters of credit.  
+- When a client fails to perform or pay under the underlying agreement, the Bank’s credit loss exposure equals the **notional amount** of the letter of credit.  
+- CIBC manages this credit risk similarly to its on‐balance‐sheet lending, requiring **collateral** where necessary and maintaining an allowance for letters of credit. The Bank also records **unrealized fees** (e.g., \$2.1 million at October 31, 2024) in other liabilities.
+
+*(Note for internal drafting: If you track **average duration** or **weighted‐average term** of these LCs, or if you have different collateral practices for financial vs. performance LCs, consider adding that detail. Also confirm if there are any **industry concentrations** in these letters of credit.)*
+
+---
+
+### 3. Other Contractual Commitments
+
+#### a. CRA Investments and Other Partnerships  
+CIBC has committed \$246.9 million to Community Reinvestment Act (CRA) and other investment partnerships.  
+- \$198.8 million of these represent **legally‐binding, unfunded commitments** for tax‐credit investments, which are also reflected with nonmarketable equity in the consolidated statement of financial condition.
+
+*(Note for internal drafting: **Confirm** if the Bank engages in any other **private investment** or **joint‐venture** arrangements that could create off‐balance‐sheet exposures. If so, consider listing them here or stating they are immaterial.)*
+
+#### b. Third‐Party Commercial Credit Card Arrangements  
+CIBC may guarantee certain commercial obligations under a recourse arrangement with a third‐party credit card provider.  
+- The maximum potential **future payments** guaranteed by the Bank under this agreement stood at \$40.2 million at October 31, 2024.  
+- Historically, losses under this program have been minimal, and no contingent liability is recorded at October 31, 2024, reflecting management’s view that additional losses are **unlikely**.
+
+*(Note for internal drafting: If the Bank has any other **guarantees**—e.g., affiliate guarantees, performance guarantees for third‐party borrowings, etc.—consider adding them here. Also clarify whether these obligations have certain triggers that would be activated in a stress or resolution scenario.)*
+
+---
+
+### 4. Mortgage Loans Sold with Recourse
+
+The Bank has also sold mortgage loans in the secondary market subject to **limited recourse** provisions.  
+- Losses recorded for the years ended October 31, 2024 and 2023 on these recourse provisions were **not material**.  
+- Given insignificant historical losses, CIBC has **not established** a liability for potential future losses relating to such mortgage loans sold in prior periods.
+
+*(Note for internal drafting: If the Bank has any **representations and warranties** that extend beyond normal recourse provisions, or if there are any repurchase triggers (e.g., for GSE loans), consider stating them here. Also note if there's a **rep/warranty reserve** or if these exposures are monitored under a separate policy.)*
+
+---
+
+### 5. Legal Proceedings
+
+At October 31, 2024, CIBC was involved in several **legal proceedings** incidental to its regular business. Management does not consider any of these matters, individually or in the aggregate, to have a **material adverse effect** on the Bank’s business or financial condition.
+
+*(Note for internal drafting: Confirm if any **legal or regulatory** matters could result in off‐balance‐sheet obligations—e.g., litigation contingencies. If so, address whether they are recorded, unrecorded, or immaterial.)*
+
+---
+
+### Mapping to Core Business Lines, Franchise Components, and Material Asset Portfolios
+
+(Placeholder: **Refer** to the section(s) in the resolution plan where the Bank’s Core Business Lines (CBLs), Franchise Components (FCs), and Material Asset Portfolios (MAPs) are defined. Summarize the key assignments below.)
+
+- **Core Business Lines**:  
+  - **Commercial Banking**: Likely includes commercial, commercial real estate, and construction commitments, as well as letters of credit servicing business clients.  
+  - **Private, Personal, and Digital Banking**: Likely includes residential mortgage commitments, consumer‐oriented guarantees, etc.  
+
+- **Franchise Components**:  
+  - (Placeholder: **List** any designated franchise components—e.g., Commercial Real Estate, Treasury Liquid Asset Portfolio—and note which off‐balance‐sheet exposures, such as CRA investments or credit card recourse arrangements, might align with these components.)
+
+- **Material Asset Portfolios**:  
+  - (Placeholder: **Identify** which loan portfolios or other assets are deemed “material.” For example, “Unfunded commercial commitments map to the Commercial Loan Portfolio if drawn,” or “Residential mortgage commitments map to the Residential Mortgage Portfolio.”)
+
+*(Note for internal drafting: **Consider** adding a more explicit statement on which OBS exposures map to which specific **CBL** or **Portfolio**—e.g., “X type of commitment is handled under the commercial banking line,” etc. If needed, integrate references to derivative exposures, merchant processing, etc.)*
+
+---
+
+### Resolution Considerations
+
+While the regulation chiefly requires that off‐balance‐sheet exposures be **identified** and **mapped**, CIBC also acknowledges that these commitments or guarantees could migrate to on‐balance‐sheet obligations if drawn. The Bank’s risk mitigation includes credit approvals, collateral requirements, and allowances to manage potential defaults. **(Placeholder: Note** any relevant contractual triggers or termination clauses if a resolution event or insolvency occurs, and reference the specific resolution strategies—e.g., bridge bank transfer, partial run‐off—in another section of the plan.)
+
+*(Note for internal drafting: Consider **highlighting** any unique termination features or cross‐default clauses that could impact how quickly OBS exposures come on‐balance‐sheet in a resolution scenario. Also, mention if the Bank intends to address these exposures through a **bridge bank strategy** or other resolution approach.)*
+
+---
+
+## Conclusion
+
+CIBC has cataloged its key off‐balance‐sheet exposures—ranging from credit extension commitments and letters of credit to investment and recourse arrangements—and **aligned** them broadly with the Bank’s core business lines, franchise components, and potential material asset portfolios. Through ongoing monitoring, allowances, and collateral policies, the Bank maintains prudent oversight of these off‐balance‐sheet liabilities, thus enhancing resolution preparedness and overall financial stability. Once the placeholders are completed—particularly for **materiality thresholds**, any **derivative** exposures, and specialized off‐balance‐sheet instruments—this section will meet the FDIC’s (9) Off‐Balance‐Sheet Exposures requirement in full.
