@@ -1,116 +1,147 @@
-Below is a **reorganized draft** with the **Materiality Thresholds and Ongoing Assessment** section **integrated** into the **Overview** section as a **subsection**, preserving a smooth reading flow:
+## Off‐Balance‐Sheet Exposures: Integrated Overview
 
----
+### 1. Unfunded Commitments
 
-## Off‐Balance‐Sheet Exposures
+**FDIC Focus**  
+Regulators expect banks to **quantify** and **describe** all unused loan facilities—commercial, real estate, construction, residential, and consumer credit lines. Key points include notional amounts, typical maturities or renewal terms, and any collateral or approval conditions.
 
-### Overview of Key Off‐Balance‐Sheet Instruments
+**Bank’s Current Response**  
+The existing stakeholder response thoroughly covers **commitments to extend credit** across multiple categories (commercial, commercial real estate, construction, residential mortgages). Amounts are broken down by year (e.g., \$14.74 billion as of October 31, 2024), and there is mention of an allowance for unfunded commitments. The response also notes that many commitments may expire without being drawn.
 
-CIBC enters into a variety of off‐balance‐sheet financial instruments to meet client financing needs and to facilitate lending, foreign trade, and investment activities. The principal categories of these instruments include:
-
-1. **Commitments to Extend Credit**  
-2. **Letters of Credit**  
-3. **Other Contractual Commitments** (e.g., CRA investments, recourse arrangements)  
-4. **Mortgage Loans Sold with Recourse**  
-
-Each of these exposures carries elements of credit and liquidity risk that **exceed** the amounts recorded on the Bank’s consolidated statement of financial condition, though many may never be drawn in full. All items are subject to CIBC’s standard credit approval, collateral, and risk monitoring processes.
-
-*(Note for internal drafting: **Check** if the Bank has other OBS activities—e.g., merchant processing guarantees, securities lending indemnifications, rep/warranty triggers on asset sales, or **derivative** exposures. If inapplicable, consider explicitly stating they are immaterial or not utilized.)*
-
-#### Materiality Thresholds and Ongoing Assessment
-
-In line with FDIC guidance, CIBC determines which off‐balance‐sheet exposures are **material** for resolution planning based on **(Placeholder: Insert relevant thresholds—e.g., a percentage of Tier 1 Capital, total assets, or risk‐weighted assets.)** Any OBS category that exceeds these thresholds in a stress scenario will be subjected to additional resolution planning analysis (e.g., liquidity impact, potential need to transfer or run off the exposure).
-
-*(Note for internal drafting: Clarify **how often** these thresholds are evaluated—e.g., quarterly, annually—and **where** stress scenarios or the supporting methodology are documented. Also consider specifying a timeframe for re‐evaluation if exposures change significantly.)*
-
----
-
-### 1. Commitments to Extend Credit
-
-CIBC’s unfunded **credit extension commitments** include **commercial**, **commercial real estate**, **construction**, and **residential mortgage** facilities. These agreements obligate the Bank to lend funds if the borrower meets certain conditions (e.g., financial covenants).  
-- As of October 31, 2024, total commitments to extend credit amounted to \$14.74 billion (down from \$21.18 billion at October 31, 2023).  
-- A significant portion of these commitments has terms of **less than one year**, and many may **expire without being drawn**, thus not necessarily representing future cash requirements.  
-- The Bank maintains an **allowance for unfunded commitments** of \$73.9 million at October 31, 2024 (versus \$81.3 million at October 31, 2023), recorded under “other liabilities.”  
-
-(Placeholder: **Insert a table** showing the breakdown of 2024 vs. 2023 commitments by type, along with their related allowances.)
-
-*(Note for internal drafting: Consider **expanding** on the **nature and typical purposes** of each commitment type. Also clarify whether any of these commitments include special termination clauses or triggers that would become relevant in resolution.)*
+**Potentially Relevant if Not Already Included**  
+If the bank has additional lines not specified (e.g., open‐end consumer credit lines, credit card facilities), the FDIC would expect them listed or clarified. Also, banks sometimes include details on **average draw rates** or **collateral requirements**, if those are material to understanding the risk.
 
 ---
 
 ### 2. Letters of Credit
 
-CIBC issues **standby letters of credit** (financial and performance) and **commercial letters of credit** to support client payment obligations or facilitate domestic and international trade.  
-- At October 31, 2024, total letters of credit reached \$1.36 billion, up slightly from \$1.31 billion at October 31, 2023.  
-  - Of these, \$594 million represented standby letters of credit, \$100 million were performance standby letters, and \$669 million were commercial letters of credit.  
-- When a client fails to perform or pay under the underlying agreement, the Bank’s credit loss exposure equals the **notional amount** of the letter of credit.  
-- CIBC manages this credit risk similarly to its on‐balance‐sheet lending, requiring **collateral** where necessary and maintaining an allowance for letters of credit. The Bank also records **unrealized fees** (e.g., \$2.1 million at October 31, 2024) in other liabilities.
+**FDIC Focus**  
+The FDIC wants **standby** and **commercial letters of credit** enumerated by type (e.g., financial vs. performance), with maximum potential liabilities, fees, and any collateral or guarantee structures.
 
-*(Note for internal drafting: If you track **average duration** or **weighted‐average term** of these LCs, or if you have different collateral practices for financial vs. performance LCs, consider adding that detail. Also confirm if there are any **industry concentrations** in these letters of credit.)*
+**Bank’s Current Response**  
+The stakeholder response provides **standby and commercial letters of credit** notional amounts, including a breakdown between performance and financial standby, plus references to typical expiration dates and collateral requirements. It also discloses that the maximum potential exposure equals the notional amount.
 
----
-
-### 3. Other Contractual Commitments
-
-#### a. CRA Investments and Other Partnerships  
-CIBC has committed \$246.9 million to Community Reinvestment Act (CRA) and other investment partnerships.  
-- \$198.8 million of these represent **legally‐binding, unfunded commitments** for tax‐credit investments, which are also reflected with nonmarketable equity in the consolidated statement of financial condition.
-
-*(Note for internal drafting: **Confirm** if the Bank engages in any other **private investment** or **joint‐venture** arrangements that could create off‐balance‐sheet exposures. If so, consider listing them here or stating they are immaterial.)*
-
-#### b. Third‐Party Commercial Credit Card Arrangements  
-CIBC may guarantee certain commercial obligations under a recourse arrangement with a third‐party credit card provider.  
-- The maximum potential **future payments** guaranteed by the Bank under this agreement stood at \$40.2 million at October 31, 2024.  
-- Historically, losses under this program have been minimal, and no contingent liability is recorded at October 31, 2024, reflecting management’s view that additional losses are **unlikely**.
-
-*(Note for internal drafting: If the Bank has any other **guarantees**—e.g., affiliate guarantees, performance guarantees for third‐party borrowings, etc.—consider adding them here. Also clarify whether these obligations have certain triggers that would be activated in a stress or resolution scenario.)*
+**Potentially Relevant if Not Already Included**  
+If certain letters of credit have **longer maturities** or unique triggers (e.g., rating downgrades of the client), indicating those details can further clarify risk. In some cases, banks also mention the **weighted‐average term** to show how quickly these exposures might roll off.
 
 ---
 
-### 4. Mortgage Loans Sold with Recourse
+### 3. Guarantees
 
-The Bank has also sold mortgage loans in the secondary market subject to **limited recourse** provisions.  
-- Losses recorded for the years ended October 31, 2024 and 2023 on these recourse provisions were **not material**.  
-- Given insignificant historical losses, CIBC has **not established** a liability for potential future losses relating to such mortgage loans sold in prior periods.
+**FDIC Focus**  
+Regulators look for any arrangements where the bank promises to fulfill an obligation if another party defaults. Typical disclosures include the notional amount, triggers, and whether there’s any collateral or affiliate guarantee structure.
 
-*(Note for internal drafting: If the Bank has any **representations and warranties** that extend beyond normal recourse provisions, or if there are any repurchase triggers (e.g., for GSE loans), consider stating them here. Also note if there's a **rep/warranty reserve** or if these exposures are monitored under a separate policy.)*
+**Bank’s Current Response**  
+Currently, the stakeholder response covers **mortgage recourse** for loans sold and a **credit card recourse arrangement** with a third‐party provider. Both are essentially forms of guarantee. The stakeholder response explains the notional exposure (\$40.2 million for the credit card program, immaterial historical losses for mortgage recourse).
 
----
-
-### 5. Legal Proceedings
-
-At October 31, 2024, CIBC was involved in several **legal proceedings** incidental to its regular business. Management does not consider any of these matters, individually or in the aggregate, to have a **material adverse effect** on the Bank’s business or financial condition.
-
-*(Note for internal drafting: Confirm if any **legal or regulatory** matters could result in off‐balance‐sheet obligations—e.g., litigation contingencies. If so, address whether they are recorded, unrecorded, or immaterial.)*
+**Potentially Relevant if Not Already Included**  
+If the bank offers **buy‐back** or **make‐whole** agreements for asset sales, or **guarantees** on behalf of affiliates, the FDIC would expect these disclosed, including any maximum exposure amounts. If none exist, a short statement confirming that helps avoid ambiguity.
 
 ---
 
-### Mapping to Core Business Lines, Franchise Components, and Material Asset Portfolios
+### 4. Third‐Party Borrowing Arrangements
 
-(Placeholder: **Refer** to the section(s) in the resolution plan where the Bank’s Core Business Lines (CBLs), Franchise Components (FCs), and Material Asset Portfolios (MAPs) are defined. Summarize the key assignments below.)
+**FDIC Focus**  
+Some banks guarantee borrowings made by subsidiaries or other affiliates. The FDIC wants to see if the bank has any outstanding obligations of this nature, noting total potential liabilities and any collateral.
 
-- **Core Business Lines**:  
-  - **Commercial Banking**: Likely includes commercial, commercial real estate, and construction commitments, as well as letters of credit servicing business clients.  
-  - **Private, Personal, and Digital Banking**: Likely includes residential mortgage commitments, consumer‐oriented guarantees, etc.  
+**Bank’s Current Response**  
+The stakeholder response **does not mention** guaranteeing subsidiary borrowing or other external borrowing facilities.  
 
-- **Franchise Components**:  
-  - (Placeholder: **List** any designated franchise components—e.g., Commercial Real Estate, Treasury Liquid Asset Portfolio—and note which off‐balance‐sheet exposures, such as CRA investments or credit card recourse arrangements, might align with these components.)
-
-- **Material Asset Portfolios**:  
-  - (Placeholder: **Identify** which loan portfolios or other assets are deemed “material.” For example, “Unfunded commercial commitments map to the Commercial Loan Portfolio if drawn,” or “Residential mortgage commitments map to the Residential Mortgage Portfolio.”)
-
-*(Note for internal drafting: **Consider** adding a more explicit statement on which OBS exposures map to which specific **CBL** or **Portfolio**—e.g., “X type of commitment is handled under the commercial banking line,” etc. If needed, integrate references to derivative exposures, merchant processing, etc.)*
+**Potentially Relevant if Not Already Included**  
+If the bank or its parent supports any **short‐term funding programs** through a guarantee, or provides lines to special‐purpose vehicles, that should be disclosed with the notional amounts. If not applicable, stating “No such arrangements exist” can close the gap.
 
 ---
 
-### Resolution Considerations
+### 5. Securities Lending Indemnifications
 
-While the regulation chiefly requires that off‐balance‐sheet exposures be **identified** and **mapped**, CIBC also acknowledges that these commitments or guarantees could migrate to on‐balance‐sheet obligations if drawn. The Bank’s risk mitigation includes credit approvals, collateral requirements, and allowances to manage potential defaults. **(Placeholder: Note** any relevant contractual triggers or termination clauses if a resolution event or insolvency occurs, and reference the specific resolution strategies—e.g., bridge bank transfer, partial run‐off—in another section of the plan.)
+**FDIC Focus**  
+When a bank (or subsidiary) acts as lending agent and **indemnifies** the customer against borrower default or market value changes, the FDIC expects the notional amounts, the fair value of lent securities, and how the bank manages collateral.
 
-*(Note for internal drafting: Consider **highlighting** any unique termination features or cross‐default clauses that could impact how quickly OBS exposures come on‐balance‐sheet in a resolution scenario. Also, mention if the Bank intends to address these exposures through a **bridge bank strategy** or other resolution approach.)*
+**Bank’s Current Response**  
+The stakeholder response does **not** describe any securities lending indemnifications.
+
+**Potentially Relevant if Not Already Included**  
+If the bank does not engage in securities lending or does not offer indemnifications, a simple statement clarifying “No securities lending indemnifications” is sufficient. If such transactions exist, the FDIC wants the maximum potential exposure and typical collateralization details.
+
+---
+
+### 6. Asset Sale Guarantees
+
+**FDIC Focus**  
+For sold assets (mortgages, loans, etc.), regulators expect disclosure of **representations and warranties** or other buy‐back clauses. The bank should note potential repurchase triggers (e.g., underwriting defects) and any reserves for these exposures.
+
+**Bank’s Current Response**  
+Mortgage loans with limited recourse are mentioned, indicating the bank would bear losses in certain circumstances. Historical losses are described as immaterial.
+
+**Potentially Relevant if Not Already Included**  
+If the bank has broader **asset sale guarantees** (e.g., for tax‐advantaged investments, commercial loans, or other specialized portfolios), the FDIC would expect a discussion of the maximum potential liability and typical triggers. If no other such guarantees exist, a statement to that effect clarifies the scope.
+
+---
+
+### 7. Merchant Processing Liabilities
+
+**FDIC Focus**  
+Banks acting as merchant acquirers can face **charge‐back** risk if a merchant fails to fund refunds or disputes. The FDIC typically wants an estimate of potential exposure and any measures taken (e.g., escrow deposits, risk limits).
+
+**Bank’s Current Response**  
+No mention is made of any merchant processing or related charge‐back risks.
+
+**Potentially Relevant if Not Already Included**  
+If the bank (or a subsidiary) processes card transactions, it may face **contingent liabilities** for merchant defaults. If no merchant processing is done, a brief note stating “no merchant processing liabilities” suffices.
+
+---
+
+### 8. Tender Option Bond Programs
+
+**FDIC Focus**  
+Regulators look for performance or liquidity guarantees on municipal bond tender programs, with details on notional amounts and how the bank collateralizes or hedges them.
+
+**Bank’s Current Response**  
+No references to municipal bond or tender option bond programs appear.
+
+**Potentially Relevant if Not Already Included**  
+If the bank is not engaged in such programs, confirming that closes the loop for regulators. If any exist, the FDIC expects notional amounts and a short risk explanation.
+
+---
+
+### 9. Other Guarantees and Commitments
+
+**FDIC Focus**  
+Any off‐balance‐sheet exposures that do not fit neatly into the categories above—such as unconsolidated variable interest entities or specialized equity partnerships—should be disclosed if they represent material contingent obligations.
+
+**Bank’s Current Response**  
+The stakeholder response covers **CRA investments** and other investment partnerships (\$246.9 million in commitments, with \$198.8 million legally binding for tax‐credit investments). This effectively addresses some “other commitments.”
+
+**Potentially Relevant if Not Already Included**  
+If the bank has other unconsolidated entities providing **credit enhancement** or liquidity support, the FDIC would want those exposures detailed. If none exist, no further disclosure is needed.
+
+---
+
+### 10. Derivatives (If Applicable)
+
+**FDIC Focus**  
+If the bank engages in swaps, futures, options, or other derivatives off‐balance‐sheet, the FDIC generally wants **notional amounts**, the purpose (hedging vs. trading), and basic risk mitigants (collateral, netting).
+
+**Bank’s Current Response**  
+No derivative exposures are mentioned.
+
+**Potentially Relevant if Not Already Included**  
+If the bank uses derivatives for asset‐liability management or client facilitation, those notional amounts should be disclosed. If there are none, a brief statement noting the absence of derivative exposures is sufficient.
 
 ---
 
 ## Conclusion
 
-CIBC has cataloged its key off‐balance‐sheet exposures—ranging from credit extension commitments and letters of credit to investment and recourse arrangements—and **aligned** them broadly with the Bank’s core business lines, franchise components, and potential material asset portfolios. Through ongoing monitoring, allowances, and collateral policies, the Bank maintains prudent oversight of these off‐balance‐sheet liabilities, thus enhancing resolution preparedness and overall financial stability. Once the placeholders are completed—particularly for **materiality thresholds**, any **derivative** exposures, and specialized off‐balance‐sheet instruments—this section will meet the FDIC’s (9) Off‐Balance‐Sheet Exposures requirement in full.
+By covering these ten categories—**unfunded commitments, letters of credit, guarantees, third‐party borrowings, securities lending indemnifications, asset sale guarantees, merchant processing liabilities, tender option bond programs, other commitments, and derivatives**—the FDIC’s primary off‐balance‐sheet expectations are met. 
+
+**What the Current Response Covers Well**  
+- Provides **detailed amounts** and narrative for major off‐balance‐sheet items (e.g., unfunded commitments, letters of credit, certain guarantees).  
+- Addresses **allowances** for unfunded commitments and references historical losses, which regulators often look for.
+
+**Potential Additions or Clarifications**  
+- Confirm if **broader guarantees** or affiliate guarantees exist (beyond mortgage recourse and credit card recourse).  
+- Note if **merchant processing**, **securities lending**, or **tender option bond** exposures apply or not.  
+- Clarify whether **derivatives** exist (if so, share notional and basic risk mitigation).  
+- If these exposures **do not** exist, stating so explicitly helps close potential gaps.  
+
+Taken together, this integrated discussion aligns with the FDIC’s interest in a comprehensive but targeted disclosure of all off‐balance‐sheet exposures, ensuring that any material risks are duly recognized, quantified, and explained.
