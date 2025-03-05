@@ -1,147 +1,105 @@
-## Off‐Balance‐Sheet Exposures: Integrated Overview
+## **Template: Material Affiliate Funding and Exposures**
 
-### 1. Unfunded Commitments
+### **1. Introduction**
 
-**FDIC Focus**  
-Regulators expect banks to **quantify** and **describe** all unused loan facilities—commercial, real estate, construction, residential, and consumer credit lines. Key points include notional amounts, typical maturities or renewal terms, and any collateral or approval conditions.
-
-**Bank’s Current Response**  
-The existing stakeholder response thoroughly covers **commitments to extend credit** across multiple categories (commercial, commercial real estate, construction, residential mortgages). Amounts are broken down by year (e.g., \$14.74 billion as of October 31, 2024), and there is mention of an allowance for unfunded commitments. The response also notes that many commitments may expire without being drawn.
-
-**Potentially Relevant if Not Already Included**  
-If the bank has additional lines not specified (e.g., open‐end consumer credit lines, credit card facilities), the FDIC would expect them listed or clarified. Also, banks sometimes include details on **average draw rates** or **collateral requirements**, if those are material to understanding the risk.
+This section of the Resolution Plan provides an overview of **CIBC Bank USA**’s (“the Bank” or “CIBC Bank USA”) **material affiliate funding relationships** and **inter-affiliate exposures** with its **parent company** (Canadian Imperial Bank of Commerce) and other **parent company affiliates**. The disclosures focus on how these relationships could impact the Bank’s **liquidity, capital, or overall financial stability** in a resolution scenario.
 
 ---
 
-### 2. Letters of Credit
+### **2. Defining “Material” Affiliate Relationships and Exposures**
 
-**FDIC Focus**  
-The FDIC wants **standby** and **commercial letters of credit** enumerated by type (e.g., financial vs. performance), with maximum potential liabilities, fees, and any collateral or guarantee structures.
+To ensure consistency and clarity, **CIBC Bank USA** applies the following **materiality criteria** to determine which affiliate funding relationships and exposures must be disclosed:
 
-**Bank’s Current Response**  
-The stakeholder response provides **standby and commercial letters of credit** notional amounts, including a breakdown between performance and financial standby, plus references to typical expiration dates and collateral requirements. It also discloses that the maximum potential exposure equals the notional amount.
+1. **Quantitative Thresholds**  
+   - **Size Relative to Capital or Assets**: Any exposure or funding arrangement that exceeds **[X%]** of the Bank’s **Tier 1 Capital** or **total assets** is deemed material.  
+   - **Potential Liquidity Impact**: Exposures or funding lines whose withdrawal or default could reduce the Bank’s **available liquidity** by **[Y%]** or more.
 
-**Potentially Relevant if Not Already Included**  
-If certain letters of credit have **longer maturities** or unique triggers (e.g., rating downgrades of the client), indicating those details can further clarify risk. In some cases, banks also mention the **weighted‐average term** to show how quickly these exposures might roll off.
+2. **Qualitative Factors**  
+   - **Critical Function Support**: Even if an arrangement falls below quantitative thresholds, it is considered material if it supports a **critical function** (e.g., large deposit concentration, daily settlement, clearing activities).  
+   - **Contractual or Legal Triggers**: Funding or exposures with **cross-default clauses** or **guarantees** that could be triggered under stress conditions.  
+   - **Strategic Significance**: Relationships tied to **key business lines** or **product offerings** that are essential to the Bank’s operations or reputation.
 
----
+**Rationale**  
+- This blended approach **captures large exposures** while also identifying **smaller but critical** relationships that could create **contagion or operational risks**.
 
-### 3. Guarantees
-
-**FDIC Focus**  
-Regulators look for any arrangements where the bank promises to fulfill an obligation if another party defaults. Typical disclosures include the notional amount, triggers, and whether there’s any collateral or affiliate guarantee structure.
-
-**Bank’s Current Response**  
-Currently, the stakeholder response covers **mortgage recourse** for loans sold and a **credit card recourse arrangement** with a third‐party provider. Both are essentially forms of guarantee. The stakeholder response explains the notional exposure (\$40.2 million for the credit card program, immaterial historical losses for mortgage recourse).
-
-**Potentially Relevant if Not Already Included**  
-If the bank offers **buy‐back** or **make‐whole** agreements for asset sales, or **guarantees** on behalf of affiliates, the FDIC would expect these disclosed, including any maximum exposure amounts. If none exist, a short statement confirming that helps avoid ambiguity.
+**Application**  
+- **Annual Review**: The Bank re-evaluates these thresholds at least annually, adjusting for **business model changes** or **new regulatory guidance**.  
+- **Documentation**: All relationships meeting any **quantitative** or **qualitative** criterion are classified as “material” and are detailed below.
 
 ---
 
-### 4. Third‐Party Borrowing Arrangements
+### **3. Material Affiliate Funding Relationships**
 
-**FDIC Focus**  
-Some banks guarantee borrowings made by subsidiaries or other affiliates. The FDIC wants to see if the bank has any outstanding obligations of this nature, noting total potential liabilities and any collateral.
+Using the materiality criteria above, **CIBC Bank USA** has identified the following **funding relationships** with its parent company and affiliates (can be table format):
 
-**Bank’s Current Response**  
-The stakeholder response **does not mention** guaranteeing subsidiary borrowing or other external borrowing facilities.  
+1. **Lines of Credit / Lending Arrangements**  
+   - **Counterparty**: (e.g., CIBC Canada, U.S. Holding Company)  
+   - **Type of Facility**: (Revolving credit facility, term loan, etc.)  
+   - **Maximum Capacity**: \$[X]  
+   - **Outstanding Balance**: \$[Y] (as of [date])  
+   - **Terms and Purpose**: (Interest rate, maturity, collateral, intended use)  
+   - **Duration**: (Short-term vs. long-term)  
+   - **Materiality Assessment**: (Explain how it meets quantitative/qualitative thresholds)
 
-**Potentially Relevant if Not Already Included**  
-If the bank or its parent supports any **short‐term funding programs** through a guarantee, or provides lines to special‐purpose vehicles, that should be disclosed with the notional amounts. If not applicable, stating “No such arrangements exist” can close the gap.
+2. **Borrowing / Funding Provided by the Bank to Affiliates**  
+   - **Counterparty**: (Affiliate name)  
+   - **Nature of Funding**: (Short-term lending, overdraft facility, etc.)  
+   - **Outstanding Balance**: \$[Z]  
+   - **Key Terms, Purpose, Duration**: (Brief description)  
+   - **Materiality Assessment**: (Reason it qualifies as material)
 
----
+3. **Deposits**  
+   - **Affiliate Deposits at the Bank**  
+     - Average/peak balance: \$[X]  
+     - Interest terms, withdrawal provisions, special covenants  
+     - Materiality Assessment (e.g., deposit size relative to total deposits, critical operational funds)  
+   - **Bank Deposits at Affiliates**  
+     - Balance: \$[Y]  
+     - Purpose (operational cash vs. investment) and maturity  
+     - Materiality Assessment (impact if withdrawn)
 
-### 5. Securities Lending Indemnifications
-
-**FDIC Focus**  
-When a bank (or subsidiary) acts as lending agent and **indemnifies** the customer against borrower default or market value changes, the FDIC expects the notional amounts, the fair value of lent securities, and how the bank manages collateral.
-
-**Bank’s Current Response**  
-The stakeholder response does **not** describe any securities lending indemnifications.
-
-**Potentially Relevant if Not Already Included**  
-If the bank does not engage in securities lending or does not offer indemnifications, a simple statement clarifying “No securities lending indemnifications” is sufficient. If such transactions exist, the FDIC wants the maximum potential exposure and typical collateralization details.
-
----
-
-### 6. Asset Sale Guarantees
-
-**FDIC Focus**  
-For sold assets (mortgages, loans, etc.), regulators expect disclosure of **representations and warranties** or other buy‐back clauses. The bank should note potential repurchase triggers (e.g., underwriting defects) and any reserves for these exposures.
-
-**Bank’s Current Response**  
-Mortgage loans with limited recourse are mentioned, indicating the bank would bear losses in certain circumstances. Historical losses are described as immaterial.
-
-**Potentially Relevant if Not Already Included**  
-If the bank has broader **asset sale guarantees** (e.g., for tax‐advantaged investments, commercial loans, or other specialized portfolios), the FDIC would expect a discussion of the maximum potential liability and typical triggers. If no other such guarantees exist, a statement to that effect clarifies the scope.
-
----
-
-### 7. Merchant Processing Liabilities
-
-**FDIC Focus**  
-Banks acting as merchant acquirers can face **charge‐back** risk if a merchant fails to fund refunds or disputes. The FDIC typically wants an estimate of potential exposure and any measures taken (e.g., escrow deposits, risk limits).
-
-**Bank’s Current Response**  
-No mention is made of any merchant processing or related charge‐back risks.
-
-**Potentially Relevant if Not Already Included**  
-If the bank (or a subsidiary) processes card transactions, it may face **contingent liabilities** for merchant defaults. If no merchant processing is done, a brief note stating “no merchant processing liabilities” suffices.
+4. **Guarantees and Credit Enhancements**  
+   - **Description**: (Parent guarantees of Bank obligations, or vice versa)  
+   - **Purpose**: (Securing external funding, backstop for trading positions, etc.)  
+   - **Duration**: (Expiration date or conditions for termination)  
+   - **Materiality Assessment**: (Potential impact if guarantee is called or revoked)
 
 ---
 
-### 8. Tender Option Bond Programs
+### **4. Inter-Affiliate Exposures**
 
-**FDIC Focus**  
-Regulators look for performance or liquidity guarantees on municipal bond tender programs, with details on notional amounts and how the bank collateralizes or hedges them.
+This section covers **non-funding** exposures between the Bank and affiliates that meet the materiality criteria (can also be table format).
 
-**Bank’s Current Response**  
-No references to municipal bond or tender option bond programs appear.
+1. **Derivatives Transactions**  
+   - **Type of Derivative**: (Interest rate swaps, FX forwards, etc.)  
+   - **Notional Amount**: \$[X]  
+   - **Counterparty**: (Affiliate name)  
+   - **Collateral / Netting Agreements**: (ISDA Master Agreement details)  
+   - **Purpose and Duration**: (Hedging vs. trading, contract maturity)  
+   - **Materiality Assessment**: (Potential mark-to-market impact, significance to hedging strategy)
 
-**Potentially Relevant if Not Already Included**  
-If the bank is not engaged in such programs, confirming that closes the loop for regulators. If any exist, the FDIC expects notional amounts and a short risk explanation.
+2. **Claims, Liens, and Other Financial Exposures**  
+   - **Type**: (Lien on assets, intercompany receivable/payable, etc.)  
+   - **Affected Assets or Collateral**: (If applicable)  
+   - **Value**: \$[X]  
+   - **Rationale/Purpose**: (Security for a loan, operational float)  
+   - **Duration**: (Expiration date or ongoing)  
+   - **Materiality Assessment**: (Likelihood and impact under stress)
 
----
-
-### 9. Other Guarantees and Commitments
-
-**FDIC Focus**  
-Any off‐balance‐sheet exposures that do not fit neatly into the categories above—such as unconsolidated variable interest entities or specialized equity partnerships—should be disclosed if they represent material contingent obligations.
-
-**Bank’s Current Response**  
-The stakeholder response covers **CRA investments** and other investment partnerships (\$246.9 million in commitments, with \$198.8 million legally binding for tax‐credit investments). This effectively addresses some “other commitments.”
-
-**Potentially Relevant if Not Already Included**  
-If the bank has other unconsolidated entities providing **credit enhancement** or liquidity support, the FDIC would want those exposures detailed. If none exist, no further disclosure is needed.
-
----
-
-### 10. Derivatives (If Applicable)
-
-**FDIC Focus**  
-If the bank engages in swaps, futures, options, or other derivatives off‐balance‐sheet, the FDIC generally wants **notional amounts**, the purpose (hedging vs. trading), and basic risk mitigants (collateral, netting).
-
-**Bank’s Current Response**  
-No derivative exposures are mentioned.
-
-**Potentially Relevant if Not Already Included**  
-If the bank uses derivatives for asset‐liability management or client facilitation, those notional amounts should be disclosed. If there are none, a brief statement noting the absence of derivative exposures is sufficient.
+3. **Concentration or Large Single Exposures**  
+   - **Description**: (Any exposure exceeding a specified percentage of capital)  
+   - **Potential Impact**: (Liquidity, capital, or solvency considerations)  
+   - **Materiality Assessment**: (Why it poses a significant risk)
 
 ---
 
-## Conclusion
+### **5. Potential Impact in a Resolution Scenario**
 
-By covering these ten categories—**unfunded commitments, letters of credit, guarantees, third‐party borrowings, securities lending indemnifications, asset sale guarantees, merchant processing liabilities, tender option bond programs, other commitments, and derivatives**—the FDIC’s primary off‐balance‐sheet expectations are met. 
+Resolution specific lens
 
-**What the Current Response Covers Well**  
-- Provides **detailed amounts** and narrative for major off‐balance‐sheet items (e.g., unfunded commitments, letters of credit, certain guarantees).  
-- Addresses **allowances** for unfunded commitments and references historical losses, which regulators often look for.
+- **Liquidity Risk**: Impact of **withdrawn lines** or **affiliate deposit run-off** on the Bank’s liquidity.  
+- **Capital Adequacy**: Potential **credit losses** or **derivative mark-to-market** that could deplete capital.  
+- **Contagion Risk**: Cross-default triggers or reputational effects if an affiliate experiences distress.  
+- **Mitigants**: Collateral agreements, netting arrangements, ring-fencing measures, or third-party funding alternatives.
 
-**Potential Additions or Clarifications**  
-- Confirm if **broader guarantees** or affiliate guarantees exist (beyond mortgage recourse and credit card recourse).  
-- Note if **merchant processing**, **securities lending**, or **tender option bond** exposures apply or not.  
-- Clarify whether **derivatives** exist (if so, share notional and basic risk mitigation).  
-- If these exposures **do not** exist, stating so explicitly helps close potential gaps.  
-
-Taken together, this integrated discussion aligns with the FDIC’s interest in a comprehensive but targeted disclosure of all off‐balance‐sheet exposures, ensuring that any material risks are duly recognized, quantified, and explained.
+---
