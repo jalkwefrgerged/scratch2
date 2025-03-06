@@ -1,36 +1,48 @@
-### Consolidated Summary of Key HR and Off-Balance Sheet Exposure Components
+### Ownership and HR Role Clarification:
+- HR is responsible for identifying **people risk**, but **not responsible for mitigation strategies**.
+  - Mitigation strategies for personnel risks (e.g., retention, incentives) are primarily the responsibility of business lines and finance.
+- HR provides frameworks, identifies people risks, but does not decide resource allocations or detailed mitigation strategies (e.g., retention awards, financial incentives).
+- HR creates key personnel lists in collaboration with business units, but decisions about resource allocation and hiring remain business and finance decisions.
 
-## HR Role and Responsibilities:
-- **Risk Identification:** HR identifies people-related risks but is not responsible for developing or executing mitigation strategies.
-- **Framework Provider:** HR establishes frameworks and facilitates identifying key personnel alongside business units but does not make resource allocation or mitigation decisions.
-- **Mitigation Execution:** Business lines and finance are accountable for executing mitigation strategies, such as retention incentives, hiring decisions, and compensation adjustments.
+### Mitigation Strategy and HR’s Involvement:
+- Mitigation strategies, including retention awards, hiring, compensation decisions, are a joint responsibility between business lines and finance.
+- HR supports this by providing frameworks and generating necessary reports (e.g., Workday lists).
+- HR does not execute or own the final mitigation decisions—only facilitates identification of key personnel and provides input regarding people-related risks.
 
-## Identification of Key Personnel:
-- **Criteria for Selection:**
+### Key Personnel Identification:
+- Key personnel should be identified by:
   - Job titles/functions
-  - Compensation grade levels (e.g., Level 7 and above)
-  - Legal employing entities
+  - Compensation grade levels (such as "Level 7 and above" or equivalent)
+  - Employee's legal employing entity
   - Location
   - Core business line affiliation
-- **Importance:** Personnel essential for capital/liquidity management, executing critical resolution decisions, and maintaining franchise value.
-- **HR Role:** HR provides the general framework; specific mitigation decisions remain with business units.
+- Identification should consider:
+  - Employees critical for capital and liquidity management
+  - Employees needed for executing critical decisions during resolution
+  - Those with expertise or relationships vital to maintaining franchise value or aiding in divestitures
+- HR provides a general framework, but specific mitigation details (like who gets retained and how) should be determined by business lines.
 
-## FDIC Requirements and Expectations:
-- Detailed rationale for identifying key roles, regularly refreshed lists.
-- Clear documentation of methodology for employee retention approaches.
+### FDIC Expectations:
+- The FDIC expects detailed mapping of key roles, especially for franchise components important for separability.
+- FDIC wants to know the rationale behind identifying key personnel and the capability to regularly refresh these lists.
+- Employee retention contracts or agreements are not explicitly required by FDIC but should be clearly articulated in terms of methodology and logic.
 
-## Resolution and Business Continuity (BCM):
-- **Scenario Distinction:** Resolution planning (long-term disruptions) differs from typical short-term BCM events.
-- **Collaboration Required:** HR should coordinate with BCM teams to accurately identify long-term critical personnel.
-- **BCM Management:** Primary BCM responsibility resides with the BCM team (not HR).
+### Resolution and Business Continuity (BCM):
+- The resolution scenario differs from typical BCM events (long-term vs. short-term disruptions).
+- HR’s role in BCM is limited; BCM team (Nandita specifically) will primarily manage continuity-of-services issues.
+- HR should collaborate closely with the BCM team to ensure correct identification and management of key personnel for long-term disruptions.
 
-## Data and Reporting Limitations:
-- Current HR systems (Workday) limitations necessitate broader, flexible descriptions rather than granular detail.
-- Focus on automating updates and using role flags rather than specific employee names.
+### Data and Reporting Systems:
+- Current HR systems (e.g., Workday) do not fully support detailed identification by job family/function due to misalignment between HR job families and actual roles, particularly in the U.S.
+- The recommended approach is to provide general descriptions (broad-brush approach) rather than overly prescriptive details, maintaining flexibility in identifying key roles.
 
-## Immediate HR Action Items:
-- Update HR documentation to reflect FDIC-mandated details (titles, functions, locations, core lines, employing entities).
-- Confirm accuracy of process diagrams, clarify governance roles, and remove redundant information.
+### Next Steps:
+- Update existing tables to include FDIC-required columns: employee titles/functions, location, core business lines, and legal employing entities.
+- Confirm sources and accuracy of any diagrams or process maps (e.g., BCM-related process map).
+- Address redundancy or irrelevance by deleting outdated information copied from the parent resolution plan.
+- Clarify roles of committees or governance structures mentioned, particularly regarding HR's role or involvement.
+- Ensure ongoing updates can be automated or easily refreshed in the future (e.g., flagging in Workday rather than using employee names).
+
 
 ---
 
