@@ -1,68 +1,107 @@
+Of course! Here are organized notes summarizing the HR-related topics from the transcript:
+
+### Ownership and HR Role Clarification:
+- HR is responsible for identifying **people risk**, but **not responsible for mitigation strategies**.
+  - Mitigation strategies for personnel risks (e.g., retention, incentives) are primarily the responsibility of business lines and finance.
+- HR provides frameworks, identifies people risks, but does not decide resource allocations or detailed mitigation strategies (e.g., retention awards, financial incentives).
+- HR creates key personnel lists in collaboration with business units, but decisions about resource allocation and hiring remain business and finance decisions.
+
+### Mitigation Strategy and HR’s Involvement:
+- Mitigation strategies, including retention awards, hiring, compensation decisions, are a joint responsibility between business lines and finance.
+- HR supports this by providing frameworks and generating necessary reports (e.g., Workday lists).
+- HR does not execute or own the final mitigation decisions—only facilitates identification of key personnel and provides input regarding people-related risks.
+
+### Key Personnel Identification:
+- Key personnel should be identified by:
+  - Job titles/functions
+  - Compensation grade levels (such as "Level 7 and above" or equivalent)
+  - Employee's legal employing entity
+  - Location
+  - Core business line affiliation
+- Identification should consider:
+  - Employees critical for capital and liquidity management
+  - Employees needed for executing critical decisions during resolution
+  - Those with expertise or relationships vital to maintaining franchise value or aiding in divestitures
+- HR provides a general framework, but specific mitigation details (like who gets retained and how) should be determined by business lines.
+
+### FDIC Expectations:
+- The FDIC expects detailed mapping of key roles, especially for franchise components important for separability.
+- FDIC wants to know the rationale behind identifying key personnel and the capability to regularly refresh these lists.
+- Employee retention contracts or agreements are not explicitly required by FDIC but should be clearly articulated in terms of methodology and logic.
+
+### Resolution and Business Continuity (BCM):
+- The resolution scenario differs from typical BCM events (long-term vs. short-term disruptions).
+- HR’s role in BCM is limited; BCM team (Nandita specifically) will primarily manage continuity-of-services issues.
+- HR should collaborate closely with the BCM team to ensure correct identification and management of key personnel for long-term disruptions.
+
+### Data and Reporting Systems:
+- Current HR systems (e.g., Workday) do not fully support detailed identification by job family/function due to misalignment between HR job families and actual roles, particularly in the U.S.
+- The recommended approach is to provide general descriptions (broad-brush approach) rather than overly prescriptive details, maintaining flexibility in identifying key roles.
+
+### Next Steps:
+- Update existing tables to include FDIC-required columns: employee titles/functions, location, core business lines, and legal employing entities.
+- Confirm sources and accuracy of any diagrams or process maps (e.g., BCM-related process map).
+- Address redundancy or irrelevance by deleting outdated information copied from the parent resolution plan.
+- Clarify roles of committees or governance structures mentioned, particularly regarding HR's role or involvement.
+- Ensure ongoing updates can be automated or easily refreshed in the future (e.g., flagging in Workday rather than using employee names).
+
+These notes cover the major HR-focused points discussed and the clarifications needed regarding HR's role in the broader resolution planning effort.
 
 
 
-Here is a **comprehensive, well-formatted narrative draft** that integrates the information provided by the stakeholder, directly addressing the FDIC IDI regulatory requirement. Wherever a gap or further information is necessary, placeholders are clearly indicated to guide the stakeholder on what details are needed to fully meet regulatory expectations.
 
----
-
-### **Material Affiliate Funding Relationships and Inter‐Affiliate Exposures**
-
-**CIBC Bank USA** (“the Bank”) engages in various financial transactions with its parent, **Canadian Imperial Bank of Commerce (CIBC)**, and other affiliates within the broader CIBC organization. These affiliate transactions involve material affiliate funding relationships and inter‐affiliate exposures, which include lending and borrowing lines, deposits, derivatives, and potentially other financial arrangements that could significantly impact the Bank’s liquidity, capital, or operational capabilities under a resolution scenario.
-
-#### **Identification of Materiality**
-
-To identify relationships and exposures considered material for the purpose of resolution planning, the Bank evaluates these relationships based on quantitative and qualitative factors, such as size relative to the Bank’s capital or assets, the potential impact on liquidity, critical function dependencies, contractual triggers, and strategic significance. *(Please insert specific quantitative thresholds used by the Bank—e.g., percentage of Tier 1 Capital, assets, or liquidity thresholds—as well as any qualitative criteria explicitly applied.)*
-
----
-
-#### **Material Affiliate Funding Relationships**
-
-The Bank has several material affiliate funding arrangements, notably:
-
-- **Revolving Credit Facility with CIBC Investments USA LLC**: The Bank maintains a $2.0 billion unsecured revolving credit facility with CIBC Investments USA LLC, with an outstanding drawn balance of approximately $1.1 billion as of December 31, 2024. This credit facility, maturing June 30, 2026, serves primarily as long-term funding to support the Bank’s capital and liquidity positions. The facility is subject to normal subordination conditions consistent with internal capital management policies. *(Please clarify explicitly whether there are any liens or collateral agreements associated with this facility, or explicitly state that no collateral or liens are involved.)*
-
-- **Deposits from Affiliates**: The Bank holds approximately $815 million in deposits from various affiliates within the CIBC group. These deposits primarily represent operating cash balances maintained by affiliates to facilitate operational needs, payment services, and liquidity management. These deposits have no stated maturity and are considered non-maturity deposits available on demand.
-
-- **Deposits from Parent Bank and CIBC NY Branch (Cash Collateral)**: The Bank also maintains approximately $233 million in deposits from the Parent Bank and CIBC NY Branch. These deposits serve specifically as cash collateral against Regulation W exposures generated by the Parent Bank and certain affiliates. *(Please explicitly state if these cash collateral deposits create any lien or claim on the Bank’s assets, or confirm explicitly that no liens are created.)*
-
-- **Committed Revolving Credit Facility with CIBC NY Branch**: The Bank has access to a $5.0 billion unsecured committed revolving credit facility provided by CIBC NY Branch, with $0.8 billion drawn as of December 31, 2024. This facility acts as a contingency funding source intended to support liquidity under stress scenarios and is not utilized as a normal course funding mechanism. *(Please specify the maturity date or renewal terms if applicable. If no specific maturity exists, explicitly indicate the evergreen or perpetual nature of this facility.)*
-
-*(Stakeholder: Insert or reference here the comprehensive summary table titled "Table View (Added 2/27/25)" previously prepared, clearly summarizing these funding lines with their total amounts, outstanding amounts, maturities, and brief descriptions.)*
-
----
-
-#### **Material Inter-Affiliate Financial Exposures**
-
-In addition to direct funding arrangements, the Bank maintains material financial exposures to affiliates, particularly through derivatives transactions and other intercompany balances:
-
-- **Derivatives Transactions**: The Bank holds significant derivative positions with affiliates. As of October 31, 2024, the Bank reported approximately $40.3 million in derivative assets and $197.4 million in derivative liabilities with affiliates. These derivative instruments are part of ongoing financial risk management activities. *(Please provide additional detail explicitly describing the type of derivatives (e.g., interest rate swaps, FX contracts), their specific purpose (hedging or trading), approximate maturities or tenor, and whether collateral or netting agreements are in place. If no collateral or netting agreements exist, explicitly confirm that.)*
-
-- **Other Assets and Liabilities**: The Bank also maintains other inter-affiliate balances categorized as other assets and liabilities, amounting to approximately $25.5 million in other assets and $42.3 million in other liabilities as of October 31, 2024. *(Please explicitly describe the nature of these "Other Assets" and "Other Liabilities," including terms, purpose, and expected duration or whether these balances are operational receivables/payables with no specific terms.)*
-
-*(Stakeholder: Please reference or insert here the summarized balance sheet information previously provided, clearly listing derivative assets/liabilities, other assets/liabilities, and their respective amounts.)*
-
----
-
-#### **Claims, Liens, and Guarantees**
-
-The regulatory requirement explicitly requests identification of material claims, liens, and guarantees. Currently, the disclosures provided discuss deposits serving as cash collateral (potential claims/liens) and subordination arrangements, but do not fully clarify whether explicit liens or guarantees exist:
-
-- **Claims and Liens**: *(Stakeholder: Please explicitly confirm whether the described "cash collateral" arrangements associated with Reg W exposures create actual liens or secured claims against any assets of the Bank. If no such liens or claims exist, explicitly state that fact.)*
-
-- **Guarantees**: *(Stakeholder: Clearly indicate whether any formal guarantees exist between CIBC Bank USA and any affiliates or the Parent Bank. If no guarantees exist, explicitly state this fact.)*
-
----
-
-#### **Potential Impact in Resolution**
-
-The identified funding relationships and inter-affiliate exposures represent potential sources of contagion or financial risk in a resolution scenario. The Bank acknowledges these relationships could impact liquidity through withdrawal or default, could reduce capital due to financial exposure, or otherwise affect operational continuity.
-
-*(Stakeholder: Please add a concise narrative briefly describing how the Bank would manage or mitigate these risks in a resolution scenario, such as alternative liquidity arrangements, collateral agreements, netting agreements, or other resolution-planning mitigants. If covered elsewhere in the resolution plan, cross-reference that section explicitly.)*
+Here’s an expanded explanation on the off-balance sheet exposures as discussed:
 
 ---
 
-#### **Conclusion**
+### **Off-Balance Sheet Exposures – Detailed Overview**
 
-This narrative meets the FDIC’s regulatory requirement under the IDI Rule by identifying and detailing the Bank’s material affiliate funding relationships and inter‐affiliate financial exposures. The relationships and transactions discussed above are material based on criteria previously outlined and reflect significant financial linkages within the broader CIBC organization.
+**1. Consolidated Reporting at Bank USA Level:**
+- **Aggregate Values:**  
+  - Instead of breaking out detailed dollar amounts by each franchise component, the plan should provide consolidated off-balance sheet commitment numbers at the Bank USA level.
+- **Marking Alignment:**  
+  - Use an **“X”** in the table to indicate which core business line the exposure relates to. This serves to link exposures with the relevant parts of the business without getting into granular dollar details per franchise component.
 
-*(Stakeholder: Please confirm explicitly that no additional material affiliate relationships or exposures exist beyond those listed here, or if additional items should be included, please provide those details explicitly.)*
+**2. Types of Exposures to Include:**
+- **Client-Facing Swaps:**  
+  - Include swaps (such as interest rate or FX swaps) that are offered to commercial clients.  
+- **Offsetting or Hedging Swaps:**  
+  - Document any corresponding hedging arrangements (e.g., swaps with third parties like JPMorgan) that are designed to offset the risk exposure.  
+  - Clearly present both sides of these swaps to illustrate the netting effect and how risk is mitigated.
+  
+**3. Netting Considerations:**
+- **Offsetting Positions:**  
+  - Detail both the exposure that arises from the client side and the hedging exposures undertaken with counterparties.  
+  - This dual view helps in demonstrating the effective net exposure.
+- **Regulatory Expectations:**  
+  - Ensure that the netting mechanism is clearly outlined to meet FDIC requirements, as they often look for clarity on how the bank’s risk is being managed through these positions.
+
+**4. Clarity and Documentation:**
+- **Table Layout:**  
+  - The table should include consolidated dollar amounts and an “X” to denote alignment with core business lines, rather than splitting values by each component.
+- **Narrative Explanation:**  
+  - Alongside the table, provide a narrative that explains:
+    - The rationale behind reporting the exposures at a consolidated level.
+    - The methodology for netting exposures (how the client and hedging swaps counterbalance each other).
+    - The significance of these exposures in terms of the bank’s overall risk profile.
+    
+**5. Additional Considerations:**
+- **Materiality:**  
+  - Emphasize providing the most material information at your comfort level, especially if granular details might trigger additional questions.
+- **Comparison with Peers:**  
+  - If applicable, consider including a brief discussion on how your off-balance sheet exposures compare with peer institutions, particularly regarding the netting and risk management approach.
+
+---
+
+### **Immediate Action Points for Finance:**
+- **Update the Off-Balance Sheet Table:**
+  - Consolidate the exposure values at the Bank USA level.
+  - Mark each exposure with an “X” to indicate the associated core business line.
+- **Include Swap Details:**
+  - Clearly detail both client-facing and offsetting swaps to demonstrate how netting is achieved.
+- **Document the Rationale:**
+  - Prepare a narrative section that explains the consolidated reporting approach and netting methodology.
+- **Review with Stakeholders:**
+  - Confirm with the finance team and regulatory reviewers (like KPMG) that the approach meets FDIC expectations and clearly communicates the bank’s risk profile.
+
+This comprehensive approach ensures that the FDIC and other stakeholders have a clear, consolidated view of the off-balance sheet exposures, while also understanding the risk mitigation through netting.
