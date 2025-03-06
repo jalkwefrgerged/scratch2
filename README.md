@@ -1,105 +1,68 @@
-## **Template: Material Affiliate Funding and Exposures**
 
-### **1. Introduction**
 
-This section of the Resolution Plan provides an overview of **CIBC Bank USA**’s (“the Bank” or “CIBC Bank USA”) **material affiliate funding relationships** and **inter-affiliate exposures** with its **parent company** (Canadian Imperial Bank of Commerce) and other **parent company affiliates**. The disclosures focus on how these relationships could impact the Bank’s **liquidity, capital, or overall financial stability** in a resolution scenario.
 
----
-
-### **2. Defining “Material” Affiliate Relationships and Exposures**
-
-To ensure consistency and clarity, **CIBC Bank USA** applies the following **materiality criteria** to determine which affiliate funding relationships and exposures must be disclosed:
-
-1. **Quantitative Thresholds**  
-   - **Size Relative to Capital or Assets**: Any exposure or funding arrangement that exceeds **[X%]** of the Bank’s **Tier 1 Capital** or **total assets** is deemed material.  
-   - **Potential Liquidity Impact**: Exposures or funding lines whose withdrawal or default could reduce the Bank’s **available liquidity** by **[Y%]** or more.
-
-2. **Qualitative Factors**  
-   - **Critical Function Support**: Even if an arrangement falls below quantitative thresholds, it is considered material if it supports a **critical function** (e.g., large deposit concentration, daily settlement, clearing activities).  
-   - **Contractual or Legal Triggers**: Funding or exposures with **cross-default clauses** or **guarantees** that could be triggered under stress conditions.  
-   - **Strategic Significance**: Relationships tied to **key business lines** or **product offerings** that are essential to the Bank’s operations or reputation.
-
-**Rationale**  
-- This blended approach **captures large exposures** while also identifying **smaller but critical** relationships that could create **contagion or operational risks**.
-
-**Application**  
-- **Annual Review**: The Bank re-evaluates these thresholds at least annually, adjusting for **business model changes** or **new regulatory guidance**.  
-- **Documentation**: All relationships meeting any **quantitative** or **qualitative** criterion are classified as “material” and are detailed below.
+Here is a **comprehensive, well-formatted narrative draft** that integrates the information provided by the stakeholder, directly addressing the FDIC IDI regulatory requirement. Wherever a gap or further information is necessary, placeholders are clearly indicated to guide the stakeholder on what details are needed to fully meet regulatory expectations.
 
 ---
 
-### **3. Material Affiliate Funding Relationships**
+### **Material Affiliate Funding Relationships and Inter‐Affiliate Exposures**
 
-Using the materiality criteria above, **CIBC Bank USA** has identified the following **funding relationships** with its parent company and affiliates (can be table format):
+**CIBC Bank USA** (“the Bank”) engages in various financial transactions with its parent, **Canadian Imperial Bank of Commerce (CIBC)**, and other affiliates within the broader CIBC organization. These affiliate transactions involve material affiliate funding relationships and inter‐affiliate exposures, which include lending and borrowing lines, deposits, derivatives, and potentially other financial arrangements that could significantly impact the Bank’s liquidity, capital, or operational capabilities under a resolution scenario.
 
-1. **Lines of Credit / Lending Arrangements**  
-   - **Counterparty**: (e.g., CIBC Canada, U.S. Holding Company)  
-   - **Type of Facility**: (Revolving credit facility, term loan, etc.)  
-   - **Maximum Capacity**: \$[X]  
-   - **Outstanding Balance**: \$[Y] (as of [date])  
-   - **Terms and Purpose**: (Interest rate, maturity, collateral, intended use)  
-   - **Duration**: (Short-term vs. long-term)  
-   - **Materiality Assessment**: (Explain how it meets quantitative/qualitative thresholds)
+#### **Identification of Materiality**
 
-2. **Borrowing / Funding Provided by the Bank to Affiliates**  
-   - **Counterparty**: (Affiliate name)  
-   - **Nature of Funding**: (Short-term lending, overdraft facility, etc.)  
-   - **Outstanding Balance**: \$[Z]  
-   - **Key Terms, Purpose, Duration**: (Brief description)  
-   - **Materiality Assessment**: (Reason it qualifies as material)
-
-3. **Deposits**  
-   - **Affiliate Deposits at the Bank**  
-     - Average/peak balance: \$[X]  
-     - Interest terms, withdrawal provisions, special covenants  
-     - Materiality Assessment (e.g., deposit size relative to total deposits, critical operational funds)  
-   - **Bank Deposits at Affiliates**  
-     - Balance: \$[Y]  
-     - Purpose (operational cash vs. investment) and maturity  
-     - Materiality Assessment (impact if withdrawn)
-
-4. **Guarantees and Credit Enhancements**  
-   - **Description**: (Parent guarantees of Bank obligations, or vice versa)  
-   - **Purpose**: (Securing external funding, backstop for trading positions, etc.)  
-   - **Duration**: (Expiration date or conditions for termination)  
-   - **Materiality Assessment**: (Potential impact if guarantee is called or revoked)
+To identify relationships and exposures considered material for the purpose of resolution planning, the Bank evaluates these relationships based on quantitative and qualitative factors, such as size relative to the Bank’s capital or assets, the potential impact on liquidity, critical function dependencies, contractual triggers, and strategic significance. *(Please insert specific quantitative thresholds used by the Bank—e.g., percentage of Tier 1 Capital, assets, or liquidity thresholds—as well as any qualitative criteria explicitly applied.)*
 
 ---
 
-### **4. Inter-Affiliate Exposures**
+#### **Material Affiliate Funding Relationships**
 
-This section covers **non-funding** exposures between the Bank and affiliates that meet the materiality criteria (can also be table format).
+The Bank has several material affiliate funding arrangements, notably:
 
-1. **Derivatives Transactions**  
-   - **Type of Derivative**: (Interest rate swaps, FX forwards, etc.)  
-   - **Notional Amount**: \$[X]  
-   - **Counterparty**: (Affiliate name)  
-   - **Collateral / Netting Agreements**: (ISDA Master Agreement details)  
-   - **Purpose and Duration**: (Hedging vs. trading, contract maturity)  
-   - **Materiality Assessment**: (Potential mark-to-market impact, significance to hedging strategy)
+- **Revolving Credit Facility with CIBC Investments USA LLC**: The Bank maintains a $2.0 billion unsecured revolving credit facility with CIBC Investments USA LLC, with an outstanding drawn balance of approximately $1.1 billion as of December 31, 2024. This credit facility, maturing June 30, 2026, serves primarily as long-term funding to support the Bank’s capital and liquidity positions. The facility is subject to normal subordination conditions consistent with internal capital management policies. *(Please clarify explicitly whether there are any liens or collateral agreements associated with this facility, or explicitly state that no collateral or liens are involved.)*
 
-2. **Claims, Liens, and Other Financial Exposures**  
-   - **Type**: (Lien on assets, intercompany receivable/payable, etc.)  
-   - **Affected Assets or Collateral**: (If applicable)  
-   - **Value**: \$[X]  
-   - **Rationale/Purpose**: (Security for a loan, operational float)  
-   - **Duration**: (Expiration date or ongoing)  
-   - **Materiality Assessment**: (Likelihood and impact under stress)
+- **Deposits from Affiliates**: The Bank holds approximately $815 million in deposits from various affiliates within the CIBC group. These deposits primarily represent operating cash balances maintained by affiliates to facilitate operational needs, payment services, and liquidity management. These deposits have no stated maturity and are considered non-maturity deposits available on demand.
 
-3. **Concentration or Large Single Exposures**  
-   - **Description**: (Any exposure exceeding a specified percentage of capital)  
-   - **Potential Impact**: (Liquidity, capital, or solvency considerations)  
-   - **Materiality Assessment**: (Why it poses a significant risk)
+- **Deposits from Parent Bank and CIBC NY Branch (Cash Collateral)**: The Bank also maintains approximately $233 million in deposits from the Parent Bank and CIBC NY Branch. These deposits serve specifically as cash collateral against Regulation W exposures generated by the Parent Bank and certain affiliates. *(Please explicitly state if these cash collateral deposits create any lien or claim on the Bank’s assets, or confirm explicitly that no liens are created.)*
+
+- **Committed Revolving Credit Facility with CIBC NY Branch**: The Bank has access to a $5.0 billion unsecured committed revolving credit facility provided by CIBC NY Branch, with $0.8 billion drawn as of December 31, 2024. This facility acts as a contingency funding source intended to support liquidity under stress scenarios and is not utilized as a normal course funding mechanism. *(Please specify the maturity date or renewal terms if applicable. If no specific maturity exists, explicitly indicate the evergreen or perpetual nature of this facility.)*
+
+*(Stakeholder: Insert or reference here the comprehensive summary table titled "Table View (Added 2/27/25)" previously prepared, clearly summarizing these funding lines with their total amounts, outstanding amounts, maturities, and brief descriptions.)*
 
 ---
 
-### **5. Potential Impact in a Resolution Scenario**
+#### **Material Inter-Affiliate Financial Exposures**
 
-Resolution specific lens
+In addition to direct funding arrangements, the Bank maintains material financial exposures to affiliates, particularly through derivatives transactions and other intercompany balances:
 
-- **Liquidity Risk**: Impact of **withdrawn lines** or **affiliate deposit run-off** on the Bank’s liquidity.  
-- **Capital Adequacy**: Potential **credit losses** or **derivative mark-to-market** that could deplete capital.  
-- **Contagion Risk**: Cross-default triggers or reputational effects if an affiliate experiences distress.  
-- **Mitigants**: Collateral agreements, netting arrangements, ring-fencing measures, or third-party funding alternatives.
+- **Derivatives Transactions**: The Bank holds significant derivative positions with affiliates. As of October 31, 2024, the Bank reported approximately $40.3 million in derivative assets and $197.4 million in derivative liabilities with affiliates. These derivative instruments are part of ongoing financial risk management activities. *(Please provide additional detail explicitly describing the type of derivatives (e.g., interest rate swaps, FX contracts), their specific purpose (hedging or trading), approximate maturities or tenor, and whether collateral or netting agreements are in place. If no collateral or netting agreements exist, explicitly confirm that.)*
+
+- **Other Assets and Liabilities**: The Bank also maintains other inter-affiliate balances categorized as other assets and liabilities, amounting to approximately $25.5 million in other assets and $42.3 million in other liabilities as of October 31, 2024. *(Please explicitly describe the nature of these "Other Assets" and "Other Liabilities," including terms, purpose, and expected duration or whether these balances are operational receivables/payables with no specific terms.)*
+
+*(Stakeholder: Please reference or insert here the summarized balance sheet information previously provided, clearly listing derivative assets/liabilities, other assets/liabilities, and their respective amounts.)*
 
 ---
+
+#### **Claims, Liens, and Guarantees**
+
+The regulatory requirement explicitly requests identification of material claims, liens, and guarantees. Currently, the disclosures provided discuss deposits serving as cash collateral (potential claims/liens) and subordination arrangements, but do not fully clarify whether explicit liens or guarantees exist:
+
+- **Claims and Liens**: *(Stakeholder: Please explicitly confirm whether the described "cash collateral" arrangements associated with Reg W exposures create actual liens or secured claims against any assets of the Bank. If no such liens or claims exist, explicitly state that fact.)*
+
+- **Guarantees**: *(Stakeholder: Clearly indicate whether any formal guarantees exist between CIBC Bank USA and any affiliates or the Parent Bank. If no guarantees exist, explicitly state this fact.)*
+
+---
+
+#### **Potential Impact in Resolution**
+
+The identified funding relationships and inter-affiliate exposures represent potential sources of contagion or financial risk in a resolution scenario. The Bank acknowledges these relationships could impact liquidity through withdrawal or default, could reduce capital due to financial exposure, or otherwise affect operational continuity.
+
+*(Stakeholder: Please add a concise narrative briefly describing how the Bank would manage or mitigate these risks in a resolution scenario, such as alternative liquidity arrangements, collateral agreements, netting agreements, or other resolution-planning mitigants. If covered elsewhere in the resolution plan, cross-reference that section explicitly.)*
+
+---
+
+#### **Conclusion**
+
+This narrative meets the FDIC’s regulatory requirement under the IDI Rule by identifying and detailing the Bank’s material affiliate funding relationships and inter‐affiliate financial exposures. The relationships and transactions discussed above are material based on criteria previously outlined and reflect significant financial linkages within the broader CIBC organization.
+
+*(Stakeholder: Please confirm explicitly that no additional material affiliate relationships or exposures exist beyond those listed here, or if additional items should be included, please provide those details explicitly.)*
