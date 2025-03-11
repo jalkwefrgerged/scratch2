@@ -1,3 +1,5 @@
+Below is a **streamlined template** for a **Group B filer** preparing its resolution submission. This focuses on how to **describe contingency-planning or similar exercises** conducted since the most recent submission, **without** referencing whether an identified strategy is required. It simply captures **what** exercises you ran, **why** you ran them, and **how** they helped improve relevant resolution capabilities.
+
 ---
 
 ## [SECTION] Contingency Planning Exercises
@@ -69,3 +71,15 @@
 - **Documentation**: Mention how the results, minutes, or after-action reports are documented and tracked for accountability.
 
 ---
+
+
+
+---
+
+## Key Takeaways
+
+1. **No Mention of a Specific Strategy**: You simply report the practical steps taken to test or improve capabilities.  
+2. **Comprehensive, Yet Focused**: Each exercise is documented in the same structured way: **name, objectives, findings, remediation**.  
+3. **Link to Resolution Readiness**: Stress how these exercises strengthen data, systems, and governance, which are crucial in any FDIC-led resolution scenario.
+
+This structure ensures your bank **fully addresses** the rule’s mandate to describe any relevant contingency or similar exercises, focusing on **enhancing resolution capabilities**, **without** referencing or proposing any specific strategy.
