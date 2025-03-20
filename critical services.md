@@ -1,21 +1,17 @@
-Below are high-level initiatives for each category that the bank should pursue as a strategic roadmap toward resolution readiness:
+**Gap: Siloed Data and Manual Reporting Processes**  
+• Establish an enterprise data platform that consolidates critical services data from all core systems.
 
-• **Data Integration and Reporting:**  
-  Establish an enterprise data platform that consolidates critical services data from all core systems, enabling real-time, centralized analytics and reporting.
+**Gap: Absence of a Formal Framework for Identifying and Mapping Critical Services**  
+• Develop a cross-functional framework to systematically identify and map key critical services to legal entities, core business lines, and franchise components.
 
-• **Critical Service Identification and Mapping:**  
-  Develop a cross-functional framework to systematically identify and map key critical services to the bank’s core business functions and operational structures.
+**Gap: Lack of a Unified Contract and SLA Management System**  
+• Implement a centralized contract management system to track and govern all service agreements and SLAs.
 
-• **Contract and SLA Management:**  
-  Implement a unified contract management system that centrally tracks and governs all service agreements and SLAs, ensuring seamless continuity and performance oversight.
+**Gap: No Comprehensive Risk Assessment and Continuity Planning for Critical Services**  
+• Build a comprehensive risk management and business continuity strategy focused on critical services.
 
-• **Risk Assessment and Continuity Planning:**  
-  Build a comprehensive risk management and business continuity strategy focused on critical services, designed to proactively address and mitigate potential disruptions in a resolution scenario.
+**Gap: Inadequate Governance and Oversight of Resolution Readiness**  
+• Create a dedicated resolution readiness committee to provide strategic oversight and coordinated action.
 
-• **Governance and Oversight:**  
-  Create a dedicated resolution readiness committee that provides strategic oversight, drives coordinated action across departments, and ensures ongoing compliance with regulatory expectations.
-
-• **Global and Intercompany Coordination:**  
-  Develop an integrated global framework for managing relationships with parent companies, affiliates, and third-party providers to ensure resilience and transparency across all jurisdictions.
-
-citeturn0file0
+**Gap: Fragmented Management of Global and Intercompany Relationships**  
+• Develop an integrated global framework for managing relationships with parent companies, affiliates, and third-party providers.
