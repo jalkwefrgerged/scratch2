@@ -1,12 +1,12 @@
-Below is the consolidated set of gaps for the given rule set regarding key management information systems and applications:
+Below is an updated list of gaps that incorporates additional considerations around front-office digital platforms for sale in resolution, and the need to distinguish MIS ownership between bank and non-bank entities:
 
 ---
 
 **Current Deficit: No Formal, Ongoing Process for Maintaining and Improving MIS Inventory**  
-• Implement a structured, repeatable approach that both (1) keeps an up-to-date catalog of each management information system (e.g., ownership/licensing details, key personnel, contract terms), and (2) continuously identifies, prioritizes, and remediates deficiencies (e.g., incomplete integration, limited reporting capabilities). Define clear timelines, accountability measures, and periodic checkpoints to validate progress and ensure resolution-readiness.
+• Implement a structured, repeatable approach to (1) keep an up-to-date catalog of every key MIS and digital platform required for resolution—including those in the front office that could be sold as part of a franchise component—and (2) continuously identify and address deficiencies (e.g., incomplete integration or limited reporting capabilities). Make sure the inventory explicitly tracks whether each system is bank-owned or owned by a non-bank legal entity, so the bank can appropriately plan for separation in resolution. Define timelines, accountability measures, and periodic checkpoints to ensure the bank remains resolution-ready.
 
 **Current Deficit: Absence of a Standardized Method for Ensuring Resolution Access to Non-Owned Systems**  
-• Develop a procedure to evaluate contract terms and projected costs, and specify how continuity will be maintained for any third-party or affiliate-owned systems in a failure scenario. This should include alternatives or contingency plans for preserving or replacing critical functionality if access is restricted.
+• Develop a formal procedure to evaluate and record contract terms, projected costs, and alternative arrangements for any system the bank does not fully own—particularly when a non-bank entity or affiliate holds the licensing rights. This must include strategies for sustaining or replacing these systems if the non-bank owner is in a separate resolution, ensuring ongoing functionality for the CIDI’s operations or prospective buyers of any franchise component.
 
 **Current Deficit: Insufficient Governance Over Data Collection and Maintenance**  
-• Establish clear roles, responsibilities, and controls for verifying data integrity, timeliness, and completeness within each relevant system. This governance structure should include audits, review protocols, and sign-off processes that ensure the data required for the full resolution submission is accurate and readily available.
+• Establish clear roles, responsibilities, and controls to verify data integrity, timeliness, and completeness in all relevant MIS—including a governance structure that oversees front-office digital platforms vital to franchise components. This should include auditing, review protocols, and sign-off processes ensuring the data required for a resolution submission is accurate, readily available, and appropriately segmented between bank and non-bank ownership.
