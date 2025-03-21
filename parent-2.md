@@ -1,7 +1,4 @@
 **Current Deficit: Incomplete, Centralized Inventory of Affiliate Funding and Exposures**  
 • Implement a single, authoritative repository that captures all relevant inter-affiliate funding relationships, exposures, and associated terms (e.g., guarantees, deposits, derivatives, lending lines). Ensure clear criteria for what constitutes “material” and a governance process that regularly reviews and validates any entries meeting that threshold for FDIC resolution compliance.
-
----
-
 **Current Deficit: Absence of a Standardized, Repeatable Process for Tracking Contractual Arrangements and Transfer Mechanisms**  
 • Develop a formal governance framework and ongoing reporting cycle (e.g., periodic reviews, board or committee oversight) to track the nature and extent of parent-company funding support. This framework should incorporate defined materiality thresholds, documentation standards for capital maintenance agreements, and clear mechanisms by which funds are transferred—ensuring consistent, up-to-date visibility in a resolution scenario.
