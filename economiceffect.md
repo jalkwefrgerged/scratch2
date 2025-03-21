@@ -1,2 +1,0 @@
-**Current Deficit: No Structured Approach to Identify Regionally or Sectorally Critical Activities**  
-• Implement a concise, repeatable process that pinpoints any service or function (even if currently deemed minimal) that could be critical to a specific geographic area, industry segment, or other financial institutions. This process should also evaluate whether these services are readily substitutable and outline basic contingency strategies, ensuring the bank can demonstrate it is prepared for resolution—even on a smaller scale.
