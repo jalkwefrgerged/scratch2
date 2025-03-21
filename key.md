@@ -1,5 +1,2 @@
-**Current Deficit: Inadequate Automated Centralized Registry and Management of Key Personnel and Associated Benefit Programs**  
-• Replace the current manual, ad hoc reporting processes in Workday with a fully automated, centralized system that captures and maintains a detailed directory of key personnel—including title, function, location, core business line, and employing legal entity—and integrates comprehensive data on all employee benefit programs, including designated points of contact for each program sponsor.
-
-**Current Deficit: Lack of a Formalized Methodology for Identifying Key Personnel**  
-• Develop and document a standardized process with objective criteria for identifying key personnel, ensuring consistent and auditable identification across the organization.
+**Current Deficit: Unstructured Process for Identifying Other Material Resolution Obstacles**  
+• Implement a periodic review mechanism that solicits input from all key business units (e.g., legal, operations, IT, finance) to surface any non-traditional or emerging risk factors. This mechanism should incorporate a framework for evaluating whether each factor could become a material impediment in a resolution scenario and mandate escalation procedures for timely remediation or mitigation.
