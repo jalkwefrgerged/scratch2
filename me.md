@@ -1,0 +1,2 @@
+**Current Deficit: No Recurring Governance and Update Process for Material Entity Designation**  
+• Implement a structured, repeatable governance process that regularly re-applies objective criteria to confirm whether new or evolving entities qualify as material. This process should include periodic reviews by designated committees or senior management, ensuring that any ad hoc methodology is replaced by a consistent, auditable framework tailored to the CIDI’s size and complexity.
