@@ -1,0 +1,2 @@
+Consolidated Deficit: No Unified, Automated System for Tracking Key Depositor Relationships Across Multiple Business Lines
+• Implement a data aggregation framework that captures each depositor’s total relationship—including deposit amounts, business segment associations, and any related services—in a single, real-time view. This approach should replace manual reporting processes with automated tagging and minimal human intervention, ensuring swift retrieval of key depositor data in a resolution scenario.
