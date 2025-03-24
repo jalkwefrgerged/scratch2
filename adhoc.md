@@ -1,2 +1,2 @@
-**Current Deficit: No Contingency Funding Plan Coverage for National Trust (a Material Entity)**  
-• **Recommendation**: Integrate National Trust fully into the bank’s Contingency Funding Plan (CFP). This should include defined liquidity triggers, capital metrics, and escalation protocols tailored to National Trust’s operations, ensuring that any stress event at this material entity is promptly addressed within the broader resolution framework.
+**Current Deficit: No Liquidity Metrics for National Trust as a Material Entity**  
+• **Recommendation**: Integrate National Trust into the bank’s treasury management and liquidity forecasting processes, establishing clear metrics and triggers that reflect its funding profile. This ensures the bank can accurately identify and address any liquidity shortfalls at National Trust within the broader resolution framework.
