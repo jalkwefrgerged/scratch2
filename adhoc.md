@@ -1,2 +1,2 @@
-**Current Deficit: No Resolution-Specific Lens or Governance for Determining Critical Services**  
-• Establish a governance framework that defines resolution-focused criteria for identifying critical services—separate from normal operational resilience definitions. This framework should specify how each service will be maintained or transitioned in a failure scenario, include formal oversight or committee reviews to ensure the list of critical services remains accurate over time, and align with FDIC requirements for mapping services to legal entities, business lines, and contractual agreements.
+Current Deficit: No Periodic Refresh Process for Key Personnel Assignments
+• Establish a scheduled review (e.g., quarterly) to confirm that designated crisis communication roles remain accurate, capturing any staff changes or new hires in real time. This ensures the right individuals are always on record for leading stakeholder outreach in a failure event.
