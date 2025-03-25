@@ -1,10 +1,1 @@
-Below are the key QFC-related gaps **not** addressed in your current list of three, each framed in the format we’ve been using:
-
----
-
-
-**Current Deficit: No Single Repository for QFC Legal Agreements**  
-• **Recommendation**: Establish a centralized contract management system that captures all QFC documents, including schedules, annexes, and addendums. By integrating legal, risk, and operational data in one place, the bank can quickly identify contractual terms (e.g., triggers, notice requirements) under stress.
-
-**Current Deficit: Lack of Resolution-Focused Protections Across All QFC Agreements**  
-• **Recommendation**: Amend all ISDA and non-ISDA derivative contracts to incorporate QFC Protocol standards or similar resolution-friendly clauses (e.g., limiting automatic termination on a CIDI default). This uniform approach prevents premature exercise of default rights, mitigates margin or collateral escalation, and aligns with FDIC expectations for orderly QFC handling in a resolution scenario.
+The regulation requires that banks document robust systems for identifying all unsecured non-deposit creditors across both the parent and its materially significant subsidiaries. This includes liabilities such as unsecured bonds, drawn letters of credit, derivative exposures, and other contingent obligations that could materialize into claims even if not currently evident. Simply stating that there are no unsecured creditors is insufficient, as regulators require detailed processes and recordkeeping to ensure that any potential claims can be accurately identified and managed in a resolution scenario. Comprehensive documentation is essential for orderly resolution, supporting measures like bail-in to protect public funds and maintain financial stability.
