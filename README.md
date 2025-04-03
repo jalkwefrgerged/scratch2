@@ -1,11 +1,10 @@
-Asset Percentage: Off-balance sheet exposures should not exceed 15% of total assets. This threshold is set to ensure that the overall asset base remains robust and that hidden risks from off-balance sheet items do not materially weaken the balance sheet. If exposures approach or exceed this level, it is imperative to conduct a detailed risk review and consider additional capital buffers.
+All off-balance sheet exposures are evaluated along the following qualitative and quantitative dimensions to determine materiality.
 
-Liability Percentage: Off-balance sheet exposures should be limited to no more than 10% of total liabilities. This criterion helps maintain a healthy balance between on- and off-balance sheet items, reducing the risk of unexpected funding pressures. Breaching this threshold indicates the need for enhanced liquidity management and potential restructuring of liabilities.
-
-Revenue Impact: The impact of off-balance sheet exposures on revenue should be managed so that volatility does not exceed a 10% deviation from forecasted earnings. This ensures that revenue streams remain stable and predictable. Should fluctuations exceed this threshold, it is a signal to review pricing strategies, risk transfer mechanisms, and diversification efforts to stabilize earnings.
-
-Operational: Losses or disruptions arising from off-balance sheet exposures should be contained to less than 5% of annual operating income. This operational threshold serves to minimize the risk of significant process failures or system interruptions that could disrupt business continuity. Exceeding this limit requires immediate intervention to strengthen risk controls and recovery procedures.
-
-Reputation: Reputational risk is monitored by tracking adverse media sentiment and stakeholder feedback, with a critical threshold defined as a 20% increase in negative coverage relative to established baselines. Sustained negative shifts beyond this threshold warrant prompt crisis communication and remedial actions to protect and restore stakeholder confidence.
-
-Regulatory: Off-balance sheet exposures must remain within regulatory limits, typically not exceeding 15% of risk-weighted assets. This criterion ensures adherence to regulatory standards and minimizes the risk of sanctions. Any breach of this threshold should trigger immediate remedial measures and enhanced disclosure to maintain regulatory compliance.
+Quantitative Criteria:
+Asset Percentage: Material if off-balance sheet exposures exceed 15% of total assets as reported on the most recent audited financial statements and determined in accordance with recognized accounting standards.
+Liability Percentage: Material if off-balance sheet exposures account for more than 10% of total liabilities, potentially affecting funding and liquidity profiles as indicated by the latest consolidated financial data.
+Revenue Impact: Material if the exposures result in revenue deviations exceeding 10% from forecasted earnings over a defined reporting period, as confirmed by scenario analyses and stress testing methodologies.
+Qualitative Criteria:
+Operational: Material if the exposure leads to significant disruptions in business continuity or undermines internal controls, affecting the organization’s operational effectiveness.
+Reputation: Material if the exposure causes a noticeable and sustained deterioration in public perception and stakeholder confidence.
+Regulatory: Material if the exposure consistently raises concerns with supervisory authorities, suggesting potential non-compliance with established regulatory standards and increasing the likelihood of enforcement action.
