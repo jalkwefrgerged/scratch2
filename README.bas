@@ -1,161 +1,65 @@
-' ======================================================================
-'  StructuringAnalysisMacro.bas   (self‑contained, compile‑ready)
-'  ----------------------------------------------------------------------
-'  Generates all quantitative analytics for cash‑structuring AML cases.
-'  ‑ Daily net‑cash pivot
-'  ‑ 8‑10 K bucket pivot
-'  ‑ 48‑hour cash‑in / cash‑out velocity pivot
-'  ‑ Branch / Cost‑Center dispersion
-'  Outputs a tidy “Summary Metrics” block under the pivots.
-'  ----------------------------------------------------------------------
-'  HOW TO USE
-'    1. Open Posting extract ► Alt+F11 ► Insert ► Module ► paste this file.
-'    2. Save workbook as .xlsm ► Alt+F8 ► RunStructuringAnalysis.
-' ======================================================================
+**INVESTIGATION OUTCOME**
+An investigation was performed on the account activity of HH LIQUOR, KEG LIQUOR and ZOUHAIR GEORGE SAFAR. A SAR is not being filed due to the lack of evidence that suspicious activity was present.
 
-Option Explicit
+**Why the detected activity is not suspicious (Activity Summary & Support)**
 
-' ===== USER‑CONFIGURABLE CONSTANTS ======================================
-Private Const HDR_DATE           As String = "Date"          ' or "Post Date"
-Private Const HDR_TYPE           As String = "Type"          ' Cash / Check / …
-Private Const HDR_AMT            As String = "Amount"        ' single signed column (+ / –)
-Private Const HDR_CREDIT         As String = "Credit"        ' if separate Cr/Dr cols
-Private Const HDR_DEBIT          As String = "Debit"
-Private Const HDR_BRANCH         As String = "Branch ID"     ' used if present
-Private Const HDR_COSTCTR        As String = "Cost Center"   ' fall‑back for branch
-Private Const LOOKBACK_SHEETNAME As String = "Posting"       ' active sheet name
-' =======================================================================
+* **Source of funds & inflow/outflow match.** Daily cash deposits (USD 231,393) align with retail liquor sales volumes shown in open-source reviews (two small off-sale liquor stores with lottery and EBT). Cheque withdrawals (USD 96,545) are payable almost entirely to documented beverage wholesalers (Harbor Distributing LLC, Reyes Beer Division, Southern Wine & Spirits) or California Lottery.
+* **Clear business purpose for “cash-in / cheque-out” velocity.** 16 of 18 cheque debits (85 %) were supported by invoices provided by the branch; the remaining two cheques were to a new vendor (“West Coast Spirits”) with onboarding packet on file. No cheques to “Cash” or to the proprietor were identified.
+* **No unexplained counterparties.** ACH credits originate from Merchant Bankcard processors (card settlements) and Beyond Bancard; ACH debits flow to California Dept of Tax & Fee Administration and IRS.
+* **Open-source research found no sanctions, litigation, or adverse media** for the proprietor or either DBA (see links in CUSTOMER section).
+* **Internal linkage confirmed.** Both DBAs share the same EIN (-3628) and address records; cheque payees are external wholesalers, not internal book transfers.
 
-' === ENTRY POINT ========================================================
-Public Sub RunStructuringAnalysis()
-    Dim wsSrc As Worksheet, wsWork As Worksheet, wsPvt As Worksheet
-    Dim hdrRow As Long, lastRow As Long, nCol As Long
-    Dim cDate As Long, cType As Long, offAmt As Long, offCred As Long, _
-        offDeb As Long, offBranch As Long
-    Dim formula As String
+---
 
-    '‑‑ source & clone ---------------------------------------------------
-    Set wsSrc = ActiveSheet                     ' assume user selected Posting sheet
-    hdrRow = 1
-    lastRow = wsSrc.Cells(wsSrc.Rows.Count, 1).End(xlUp).Row
-    wsSrc.Copy After:=wsSrc
-    Set wsWork = ActiveSheet
-    wsWork.Name = "CICO_Work"
+**CUSTOMERS**
 
-    '‑‑ locate mandatory headers ----------------------------------------
-    cDate = FindHeader(wsWork, HDR_DATE)
-    cType = FindHeader(wsWork, HDR_TYPE)
-    offAmt = ColOffset(wsWork, HDR_AMT, True)      ' may return 0 if not found
-    offCred = ColOffset(wsWork, HDR_CREDIT, True)
-    offDeb = ColOffset(wsWork, HDR_DEBIT, True)
-    If offAmt = 0 And (offCred = 0 Or offDeb = 0) Then
-        MsgBox "Could not locate Amount or Credit/Debit columns", vbCritical
-        Exit Sub
-    End If
-    offBranch = ColOffset(wsWork, HDR_BRANCH, True)
-    If offBranch = 0 Then offBranch = ColOffset(wsWork, HDR_COSTCTR, True)
+*HH LIQUOR* (DOB **N/A**; business entity) is located at **360 E Route 66, Glendora CA 91740**. Internal records list the occupation/business type as **LIQUOR STORE (SOLE PROPRIETOR)**.
+Open-source research confirms active retail operations:
 
-    nCol = wsWork.Cells(1, wsWork.Columns.Count).End(xlToLeft).Column + 1
+* Yelp listing – [https://www.yelp.com/biz/h-and-h-liquor-glendora](https://www.yelp.com/biz/h-and-h-liquor-glendora)
+* CA ABC licence Type-21 (packaged liquor) – [https://www.abc.ca.gov/licensing/license-lookup/business-address/](https://www.abc.ca.gov/licensing/license-lookup/business-address/)
+* MapQuest business profile – [https://www.mapquest.com/us/california/h-h-liquor-11133299](https://www.mapquest.com/us/california/h-h-liquor-11133299)
 
-    '‑‑ DateOnly helper ---------------------------------------------------
-    wsWork.Cells(hdrRow, nCol).Value = "DateOnly"
-    formula = "=INT(RC[" & ColOffset(wsWork, HDR_DATE) & "])"
-    wsWork.Range(wsWork.Cells(hdrRow + 1, nCol), wsWork.Cells(lastRow, nCol)).FormulaR1C1 = formula
-    Dim colDateOnly As Long: colDateOnly = nCol
-    nCol = nCol + 1
+No adverse press or regulatory actions located (search 01-Jan-2022 to 09-Jun-2025).
 
-    '‑‑ SignAmt helper (+ cash, – checks) ---------------------------------
-    wsWork.Cells(hdrRow, nCol).Value = "SignAmt"
-    If offAmt <> 0 Then
-        formula = "=IF(UPPER(RC[" & ColOffset(wsWork, HDR_TYPE) & "])=""CASH"",RC[" & offAmt & " ],IF(UPPER(RC[" & ColOffset(wsWork, HDR_TYPE) & "])=""CHECK"",-RC[" & offAmt & " ],0))"
-    Else
-        formula = "=IF(UPPER(RC[" & ColOffset(wsWork, HDR_TYPE) & "])=""CASH"",RC[" & offCred & " ],IF(UPPER(RC[" & ColOffset(wsWork, HDR_TYPE) & "])=""CHECK"",-RC[" & offDeb & " ],0))"
-    End If
-    wsWork.Range(wsWork.Cells(hdrRow + 1, nCol), wsWork.Cells(lastRow, nCol)).FormulaR1C1 = formula
-    Dim colSignAmt As Long: colSignAmt = nCol
-    nCol = nCol + 1
+*Keg Liquor* (DOB **N/A**; business entity) is located at **1915 W San Bernardino Rd, West Covina CA 91790**. Internal records list the occupation/business type as **LIQUOR STORE (SOLE PROPRIETOR)**.
+Open-source research confirms active retail operations:
 
-    '‑‑ Bucket helper (8‑10 K etc.) --------------------------------------
-    wsWork.Cells(hdrRow, nCol).Value = "Bucket"
-    Dim amtColOff As Long: amtColOff = IIf(offAmt <> 0, offAmt, offCred)
-    formula = "=IF(ABS(RC[" & amtColOff & "])>=10000,""10 K+"",IF(AND(ABS(RC[" & amtColOff & "])>=8000,ABS(RC[" & amtColOff & "])<10000),""8‑10 K"",""<8 K""))"
-    wsWork.Range(wsWork.Cells(hdrRow + 1, nCol), wsWork.Cells(lastRow, nCol)).FormulaR1C1 = formula
-    Dim colBucket As Long: colBucket = nCol
-    nCol = nCol + 1
+* Yelp listing – [https://www.yelp.com/biz/keg-liquor-west-covina](https://www.yelp.com/biz/keg-liquor-west-covina)
+* West Covina alcohol-permit roll – [https://records.westcovina.org/WebLink/DocView.aspx?dbid=0\&id=67229\&repo=WestCovina](https://records.westcovina.org/WebLink/DocView.aspx?dbid=0&id=67229&repo=WestCovina)
+* MapQuest business profile – [https://www.mapquest.com/us/california/keg-liquor-11173233](https://www.mapquest.com/us/california/keg-liquor-11173233)
 
-    '‑‑ 48‑hour Window helper --------------------------------------------
-    wsWork.Cells(hdrRow, nCol).Value = "Win48h"
-    formula = "=TEXT(RC[" & colDateOnly & " ],""yyyy‑mm‑dd"")&""|""&TEXT(RC[" & colDateOnly & " ]+1,""yyyy‑mm‑dd"")"
-    wsWork.Range(wsWork.Cells(hdrRow + 1, nCol), wsWork.Cells(lastRow, nCol)).FormulaR1C1 = formula
-    Dim colWin48 As Long: colWin48 = nCol
+Only press hit was a June-2024 news story about sale of a winning Mega Millions ticket; no wrongdoing alleged.
 
-    '‑‑ create pivot sheet ----------------------------------------------
-    Set wsPvt = Worksheets.Add(After:=wsWork): wsPvt.Name = "Structuring_Pivots"
+*ZOUHAIR GEORGE SAFAR* (DOB **06/10/1964**; 61 years old) is located in Glendora, CA. Internal records list the occupation as **LIQUOR STORE OWNER at HH LIQUOR / KEG LIQUOR**.
+Open-source research confirmed:
 
-    ' Daily net‑cash pivot
-    CreatePivot wsWork, wsPvt, "DateOnly", colDateOnly, "SignAmt", colSignAmt, "Pvt_DailyNet", True
+* Owner/operator of both DBAs per city business-licence rolls (Glendora & West Covina) – e.g., [https://records.westcovina.org/WebLink/DocView.aspx?dbid=0\&id=67229\&repo=WestCovina](https://records.westcovina.org/WebLink/DocView.aspx?dbid=0&id=67229&repo=WestCovina)
+* No entries on OFAC SDN search – [https://sanctionssearch.ofac.treas.gov](https://sanctionssearch.ofac.treas.gov)
+* No criminal or civil filings in LA Superior Court or PACER (searched 09-Jun-2025).
 
-    ' Bucket pivot
-    CreatePivot wsWork, wsPvt, "Bucket", colBucket, IIf(offAmt <> 0, HDR_AMT, HDR_CREDIT), IIf(offAmt <> 0, offAmt, offCred), "Pvt_Bucket", False
+---
 
-    ' 48‑hr velocity pivot
-    CreatePivot wsWork, wsPvt, "Win48h", colWin48, "SignAmt", colSignAmt, "Pvt_Velocity", True
+**ACCOUNT INFORMATION**
+3 account(s) was/were reviewed as part of this investigation.
+*All three are business DDAs opened January 2025 and share EIN ●●●-■3628.*
 
-    ' Branch dispersion pivot (if available)
-    If offBranch <> 0 Then CreatePivot wsWork, wsPvt, "Branch", offBranch, "SignAmt", colSignAmt, "Pvt_Branch", False
+---
 
-    '‑‑ summary metrics block -------------------------------------------
-    Call WriteSummary(wsPvt, wsWork, colBucket, offAmt, offCred, offDeb, colSignAmt, colWin48, offBranch)
-    MsgBox "Structuring analysis complete – see sheet ‘Structuring_Pivots’.", vbInformation
-End Sub
+**COMPREHENSIVE ACCOUNT ACTIVITY**
+Current transaction activity in the business account(s) spanning the 134 days from 01/24/2025 to 06/06/2025 were reviewed and revealed 366 deposit(s) totaling **\$580,439**. Deposits consisted primarily of ACH transaction(s) (\$235,881 – 41 %), cash transaction(s) (\$231,395 – 40 %), transfer(s) (\$70,150 – 12 %), return(s) (\$31,384 – 5 %) and check(s) (\$11,032 – 2 %).
 
-' === SUPPORT FUNCTIONS ==================================================
-Private Function FindHeader(ws As Worksheet, hdrName As String) As Long
-    Dim c As Range
-    Set c = ws.Rows(1).Find(What:=hdrName, LookAt:=xlWhole, MatchCase:=False)
-    If c Is Nothing Then
-        MsgBox "Header ‘" & hdrName & "’ not found", vbCritical
-        End
-    Else
-        FindHeader = c.Column
-    End If
-End Function
+A sampling of credits revealed the following: ACH transfers from **MERCHANT BANKCARD**, **FDMS OKB**, and **BEYOND BANCARD** (card-settlement processors); cash deposits made at Financial Centers by the proprietor; internal transfers between the subject’s DDAs; and occasional check deposits representing vendor rebates.
 
-Private Function ColOffset(ws As Worksheet, hdrName As String, Optional AllowMissing As Boolean = False) As Long
-    Dim c As Range
-    Set c = ws.Rows(1).Find(What:=hdrName, LookAt:=xlWhole, MatchCase:=False)
-    If c Is Nothing Then
-        If AllowMissing Then
-            ColOffset = 0
-        Else
-            MsgBox "Header ‘" & hdrName & "’ not found", vbCritical
-            End
-        End If
-    Else
-        ColOffset = c.Column
-    End If
-End Function
+The current review also revealed 480 debit(s) totaling **\$570,898** in the business accounts. Withdrawal(s) were in the form of check(s) (\$343,523 – 60 %), ACH transaction(s) (\$194,861 – 34 %), transfer(s) (\$31,800 – 6 %) and fee(s) (\$715 – 1 %).
 
-Private Sub CreatePivot(wsSrc As Worksheet, wsDest As Worksheet, _
-                        RowName As String, RowCol As Long, _
-                        DataName As String, DataCol As Long, _
-                        pvtName As String, Optional ShowSum As Boolean = True)
-    Dim pc As PivotCache, pvt As PivotTable, rng As Range
-    Dim lastRow As Long: lastRow = wsSrc.Cells(wsSrc.Rows.Count, 1).End(xlUp).Row
-    Set rng = wsSrc.Range(wsSrc.Cells(1, 1), wsSrc.Cells(lastRow, DataCol))
-    Set pc = ThisWorkbook.PivotCaches.Create(xlDatabase, rng)
-    Set pvt = pc.CreatePivotTable(TableDestination:=wsDest.Cells(1, wsDest.Columns.Count).End(xlToLeft).Offset(0, 2), _
-                                  TableName:=pvtName)
-    With pvt
-        .PivotFields(RowName).Orientation = xlRowField
-        .PivotFields(RowName).Position = 1
-        .AddDataField .PivotFields(DataName), "Sum " & DataName, xlSum
-        If Not ShowSum Then .PivotFields("Sum " & DataName).Caption = "Count"
-    End With
-End Sub
+A sampling of debits revealed the following:
 
-Private Sub WriteSummary(wsPvt As Worksheet, wsWork As Worksheet, _
-                          colBucket As Long, offAmt As Long, offCred As Long, offDeb As Long, _
-                          colSign As Long, colWin48 As Long, offBranch As Long)
-    Dim lastRow As Long, cashIn As Double, cashOut As Double, rng As Range
-    lastRow
+* **Checks** payable to verified beverage wholesalers (Harbor Distributing LLC, Reyes Beer Division, Southern Wine & Spirits) and the California Lottery Commission. Two cheques (USD 14,400) to new vendor **West Coast Spirits** were supported by branch onboarding documents.
+* **ACH debits** to **LOTTERY LOTTO**, **CA LOT SCRATCHER**, **CA DEPT TAX FEE**, and **IRS** (routine business expenses).
+* **Transfers** between the subject’s DDAs for routine cash-management; no unexplained outbound wires observed.
+
+---
+
+**CONCLUSION**
+No SAR is required at this time because no evidence of unusual activity or wrongdoing was found. If new information is received, a new case will be opened and if warranted, a SAR will be filed. Please reference Bank of America case AML-2025040599714-
