@@ -1,14 +1,9 @@
-The monitoring system flagged a brief sequence of cash-heavy days in which mid-sized cash deposits were followed—within one to two business days—by cheque withdrawals to third-party merchants. That “cash-in / cheque-out” pattern is a standard structuring-scenario trigger designed to surface potential cash placement and rapid layering through negotiable instruments.
+INVESTIGATION OUTCOME
+Bank of America, N.A. (BANA) is filing a SAR on BEATRIZ R RAZON and JOSE DE JESUS CHAVEZ PARRA to report structuring – multiple cash deposits apparently designed to evade the \$10 000 Currency Transaction Report threshold between 03/18/2025 and 03/19/2025 totaling \$10,020. The suspicious activity occurred at ATMs in Enfield, CT.
+Between 03/18/2025 and 03/19/2025 the following activity was observed: 3 deposits) totaling \$10,020. The deposits) consisted of cash transaction. Amounts ranged from \$320 to \$7,500. Deposits were conducted via ATMs in Enfield, CT.
+Suspicious Activity Summary & Support: Three cash deposits were placed at the same ATM within a 48-hour window and together exceed the CTR threshold by only \$20, indicating deliberate structuring. The account shows ≈ \$43,801 cash inflow versus only ≈ \$2,860 ACH credits during the 120-day look-back, inconsistent with stated low-wage employment. Outflows are primarily driven by ACH debits; cheque activity is minimal, limited to two on-us cheque payments to BCI Financial Corporation for \$611.32 each on 02/01/2025 and 04/24/2025. No other large outgoing payments or business expenses appear.
 
+SUSPECTS)/CUSTOMER(S)
+BEATRIZ R RAZON (DOB 03/14/1989; 36 years old) is located in Stafford Spgs, CT. Internal records list the occupation as LABORER at PIZZA PIE. Open source research revealed: Likely the “Joey’s Pizza Pie” restaurant worker in West Hartford, CT (\~25 mi away); no business ownership, licences, or high-value income sources found; residential address 45 Center St, Stafford Springs is a small multi-family property (Zillow).
 
-Activity review and disposition of alerting items – cash and cheque cycle
-A 134-day look-back shows three predictable sources of inflow: (i) daily cash deposits from over-the-counter sales at HH Liquor and Keg Liquor, (ii) card-settlement ACH credits from Merchant Bankcard / FDMS OKB / Beyond Bancard, and (iii) occasional internal transfers that top-up working capital. Outflows mirror that pattern: cheques drawn to inventory wholesalers (e.g., Harbor Distributing, Reyes Beer Division, Southern Wine & Spirits, California Lottery Commission), scheduled ACH debits to tax-and-fee agencies, and small internal transfers.
-
-Structuring-alert review. The monitoring system flagged two consecutive cash deposits—\$4,700 on 03/18 and \$8,000 on 03/19—as potential structuring. Both were made at the customer’s regular branch, matched typical mid-week store takings, and were not followed by additional same-day deposits or withdrawals at other locations. No amount-splitting or branch-hopping was observed; the pair is assessed as routine retail cash flow, not structuring.
->
-Cheque follow-through. Cheque-image review shows the cash deposits are routinely converted to supplier payments the next business day. Examples from the alerting cluster include:
-
-* $1,214 cheque to Sam’s Club dated 02/13/25 for bulk consumables;
-* $2,763 cheque to Ranch Wholesale dated 02/11/25 for grocery inventory;
-* $1,417 cheque to Harbor Distributing LLC dated 02/12/25 for beer delivery (image and invoice on file).
-  All alerting cheques are payable to recognised vendors; none are to “Cash,” the proprietor, or unknown parties, and no outbound wires were detected. Accordingly, the cash-in cheque-out velocity is considered typical of liquor-store inventory funding and does not evidence structuring or laundering.
+JOSE DE JESUS CHAVEZ PARRA (DOB 01/07/1977; 48 years old) is located in Stafford Springs, CT. Internal records list the occupation as TAXI DRIVER at ACAPULCOS. Open source research revealed: Employment link to Acapulcos Mexican Family Restaurant & Cantina, 61 Palomba Dr, Enfield CT; no taxi-medallion or livery-licence records published online; no adverse media or sanctions hits; income from taxi or restaurant work would not normally support repeated \$7,000–\$10,000 cash deposits (Yelp listing, MapQuest, Connecticut business registry searches).
