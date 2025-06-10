@@ -1,3 +1,6 @@
+The monitoring system flagged a brief sequence of cash-heavy days in which mid-sized cash deposits were followed—within one to two business days—by cheque withdrawals to third-party merchants. That “cash-in / cheque-out” pattern is a standard structuring-scenario trigger designed to surface potential cash placement and rapid layering through negotiable instruments.
+
+
 Activity review and disposition of alerting items – cash and cheque cycle
 A 134-day look-back shows three predictable sources of inflow: (i) daily cash deposits from over-the-counter sales at HH Liquor and Keg Liquor, (ii) card-settlement ACH credits from Merchant Bankcard / FDMS OKB / Beyond Bancard, and (iii) occasional internal transfers that top-up working capital. Outflows mirror that pattern: cheques drawn to inventory wholesalers (e.g., Harbor Distributing, Reyes Beer Division, Southern Wine & Spirits, California Lottery Commission), scheduled ACH debits to tax-and-fee agencies, and small internal transfers.
 
