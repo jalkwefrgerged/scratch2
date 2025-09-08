@@ -44,6 +44,11 @@ The report documents that the validator confirmed sourcing from approved, enterp
 
 
 
+
+
+
+
+
 ---
 
 
@@ -54,6 +59,23 @@ The MVR maps VN’s interconnectivity by describing direct upstream feeds and do
 
 Rationale — Meets Expectations.
 The MVR shows the validator considered interconnectivity and compounding effects, evaluated the associated risk, and anchored that evaluation in the risk tiers of VN and its interconnected models. It addresses the procedure’s emphasis on the level of impact from direct upstream and downstream models, documents a review of key dependencies appropriate to a High-tier model, and indicates at least one-layer coverage for lower-tier linkages. The intensity and level of effort are explained as risk-based judgement—deeper work where interconnectivity risk is concentrated and reliance on prior component reviews elsewhere—which satisfies the standard’s expectation. On this basis, the documented process meets expectations.
+
+
+
+---
+---
+---
+
+Requirement: The Model Validator must consider model interconnectivity, as defined in the Model Development Standard, and the corresponding compounding effects during the validation process and evaluate the associated risk. The evaluation of associated risk must consider the risktier of the interconnected models. The intensity of focus and level of effort applied in validating interconnected models is subject to the Model Validator's judgement given the interconnectivity risk.
+
+MVR summary:
+The MVR maps VN’s interconnectivity by describing direct upstream feeds and downstream consumers, registered interfaces, and data flows, and it explains compounding effects (e.g., a near-flat portfolio duration where small analytic errors can materially affect enterprise metrics and limits). The validator evaluates associated risk with explicit consideration of the integrator’s High risk tier and the risk tiers of interconnected component models and usages. It assesses the level of impact of direct dependencies on VN’s outputs and performs targeted impact testing on a cross-model assumption to gauge downstream effects, while recommending hygiene actions to keep dependency registrations current. For this High-tier integrator, the report indicates that key dependencies required for VN’s usages were reviewed, and that at least one upstream and one downstream layer is covered for lower-tier items, with depth of testing aligned to interconnectivity risk. It also records specific interconnectivity deficiencies and issues recommendations to remediate them.
+
+Rationale:
+The MVR shows the validator considered interconnectivity and compounding effects, evaluated the associated risk, and anchored that evaluation in the risk tiers of VN and its interconnected models. It addresses the procedure’s emphasis on the level of impact from direct upstream and downstream models, documents a review of key dependencies appropriate to a High-tier model, and indicates at least one-layer coverage for lower-tier linkages. The intensity and level of effort are explained as risk-based judgement—deeper work where interconnectivity risk is concentrated and reliance on prior component reviews elsewhere—and the report documents identified deficiencies with recommendations. 
+
+
+
 
 
 
