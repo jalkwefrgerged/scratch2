@@ -1,41 +1,44 @@
-INVESTIGATION OUTCOME
-No SAR filed
+### Requirement: Scope must be commensurate with risk tier; MRM verifies tier during planning
 
-Alerting transaction types
-- Large cash deposit (ATM, personal account)
-- Possible structured cash withdrawal (split, sub-$10 K withdrawals)
+**MVR summary (paraphrased).**
+For ValuationNet v2.7.3.0, MRM began planning with the model classified as High per the Risk Tiering Template and, after completing the review, affirmed that High remains appropriate. The report attributes this chiefly to materiality—VN generates valuation and market-risk metrics used across the retained portfolio and enterprise processes, with portfolio duration subject to management/Board limits and monitored by FHFA—and to complexity, given VN’s role as an integrator of term-structure, mortgage-rate, and prepayment components using Monte Carlo/lattice methods with broad upstream/downstream interconnectivity. Residual model risk remains High. Consistent with that tier, MRM executed a full-scope validation of the integrator model and limited implementation testing to elements changed in this release, and it notes the tier will be revisited if model usages change.
 
-Events reviewed (3 Jan 2025 – 29 May 2025)
-- 1 Mar 2025 – Deposits: customer made two back-to-back ATM cash deposits of $4,000 and $2,000. These amounts are larger than the account’s usual cash credits (typically $60 – $820) but remain below the $10 K currency-reporting threshold.
-- 10 Mar 2025 – Withdrawal: single teller cash withdrawal of $1,000.
-- 19 Mar 2025 – Withdrawals: two consecutive teller cash withdrawals of $9,500 and $1,000 at the same branch. Total cash out for the day was $10,500.
+**Rationale — Meets Expectations.**
+The standard requires MRM to verify tier appropriateness during planning and to set scope/rigor that match that tier. The MVR does both: it explicitly reconfirms High and ties that rating to clear drivers of materiality and complexity, then applies a High-tier scope (broad domain coverage with targeted implementation testing for deltas). Keeping residual risk at High further substantiates the choice. One enhancement for future cycles would be to capture a brief “planning challenge” note that spells out what evidence could change the tier, but the requirement as written is satisfied.
 
-All other cash activity in the six-month window consisted of routine small deposits and minor debits.
 
-General inflows and outflows
-Pivot-table totals for the review period show overall debits of roughly **$64,500** distributed as follows:
-•  Debit-card point-of-sale transactions – about **$19,900** (≈31 % of debits)  
-•  ACH payments – about **$12,000** (≈19 %)  
-•  Cash withdrawals – about **$11,200** (≈17 %)  
-•  Peer-to-peer / real-time payments – about **$9,400** (≈15 %)  
-•  Mobile or pin-less debit charges – about **$6,300** (≈10 %)  
-•  Checks – about **$4,900** (≈8 %)  
-Credits during the same period appear to mirror ordinary payroll ACH deposits and small incoming P2P transfers; total credit volume was approximately $[total-credit-amount] with average monthly inflows near $[average-monthly-credit].  Aside from the single $6,000 cash-deposit day, cash represented only about [cash-credit-percent]% of total incoming funds.
+### Requirement: The scope of Full-Scope Initial Validation/Revalidation must cover Section 5.4 areas; for Targeted-Scope, the Lead Validator must determine and document the scope
 
-The pattern suggests a balanced household account that relies mainly on electronic channels, with cash activity playing a secondary role.  (Insert specific paycheck or P2P examples here as needed.)
+**MVR summary (paraphrased).**
+For ValuationNet v2.7.3.0, the Lead Validator set and documented a High-tier **full-scope** validation of the **integrator model**, covering the Section 5.4 domains: model data, conceptual soundness, code review, model development evidence, model limitations and compensating controls, model implementation, model performance monitoring, model interconnectivity, model risk tier and residual risk, and model governance. Within that framework, the **model implementation review** was **targeted** to changes introduced in v2.7.3.0, with implementation requirements, solutions, acceptance criteria, and testing results recorded in Jira.
 
-Analysis — why the activity is not suspicious
-1. Lack of pattern  
-   Only one day shows split withdrawals; there are no additional sub-$10 K splits on other days, no multi-branch withdrawals, and no recurring attempts to stay below reportable limits.  Without repetition, the conduct does not demonstrate a structuring scheme.
+**Rationale — Meets Expectations.**
+The standard requires Section 5.4 coverage for full-scope work and explicit scoping by the Lead Validator when targeting; the MVR does both. It documents a full-scope assessment across the prescribed areas and clearly limits the implementation testing to the **release deltas**, with supporting evidence traceable in Jira—demonstrating the LV determined and recorded scope boundaries during planning. Given the model’s High tier, a full-scope review of the integrator plus a targeted implementation slice is appropriate and consistent with the Standard. A minor enhancement for clarity would be a brief “Section 5.4 crosswalk” in the scope paragraph, but the requirement as written is satisfied.
 
-2. Isolated large deposit  
-   The $6,000 in ATM deposits occurred once and were followed by a two-week gap before any sizeable cash withdrawal.  An isolated increase, absent repetition or rapid cash-in/cash-out cycling, is insufficient to indicate illicit intent.
 
-3. Regulatory reporting satisfied  
-   Because the 19 Mar withdrawals aggregated to $10,500, a Currency-Transaction Report has been or will be filed.  This fulfills statutory cash-reporting requirements; the CTR alone does not make the activity suspicious.
 
-4. Context and customer profile  
-   Routine low-value deposits, normal debit-card spending, and no adverse media or high-risk occupation suggest ordinary personal banking.  No additional red flags — such as third-party involvement, funnel accounts, or links to known illicit networks — were identified.
+### Requirement: The MDD must let unfamiliar parties understand the model (operation, limitations, assumptions) and also mitigate key-person risk, enable proper operation, facilitate independent review with minimal assistance, and reduce change-implementation risk
 
-Decision & monitoring plan
-The single occurrence of split withdrawals and the one-time large deposit do not create a pattern consistent with structuring or other suspicious activity.  The case is closed without SAR filing.  The account will remain under standard monitoring, and any future sub-threshold splits or additional large cash deposits will trigger a new review.
+**MVR summary (paraphrased).**
+MRM reviewed ValuationNet’s documentation and confirmed the **MDD meets the Model Development Standard**, with all required approvals in place. The package—MDD, operations/runbook, architecture and data-flow overviews, stated assumptions and limitations, input/output specifications, descriptions of controls/quality checks, release/testing evidence, and a dated revision history current through **April 30, 2025**—provides sufficient detail for a knowledgeable reader to understand how the model operates and where its boundaries are.
+
+**Rationale — Meets Expectations.**
+The validation did what the Standard requires: MRM assessed the MDD against the Development Standard and explicitly attested it meets the content and sufficiency criteria, with current, approved documentation that enables understanding, independent review with minimal assistance, and proper operation. While the MVR separately notes a few enhancements elsewhere in the report, those do not alter the conclusion that the MDD, as validated, complies with the Standard.
+
+
+yes—two small additions would strengthen this, based on the MVR, without drifting from the **process-conformance** lens:
+
+1. **Version control/currentness:** note that the doc set includes a **revision history through Apr 30, 2025** and that the MDD documents **VN v2.7.3.0**. This evidences “current version” and proper version control.
+2. **Deeper validation evidence:** explicitly mention the **validation challenge log** alongside use of the **documentation assessment template** to show the validator’s “greater-depth” review and resulting enhancements to the MDD.
+
+
+
+### Requirement: Validator confirms the MDD uses the standard template, is properly populated/approved; performs a deeper validation-phase assessment for comprehensiveness/clarity; and evaluates model-inventory completeness/accuracy and consistency with the MDD
+
+**MVR summary (paraphrased).**
+MRM reviewed ValuationNet’s **MDD for VN v2.7.3.0** and **confirmed it meets the Model Development Standard** with all required **1LoD approvals**. The Lead Validator **used the model documentation assessment template** and the **validation challenge log** to drive a deeper validation-phase review and updates to the MDD for **comprehensiveness and clarity**. MRM also **evaluated the model inventory against the MDD** and found it largely consistent, while **documenting specific mismatches** (e.g., MU01473 inactive in MUSE but listed in the MDD; MU01429 mapped to PRIMA in the MDD vs HAO in MUSE; usage-owner name mismatch) and recommending a **monthly MDD↔inventory sync** (and at least prior to each annual review/revalidation). The documentation set includes a **dated revision history through April 30, 2025**, evidencing currency/version control.
+
+**Rationale — Meets Expectations.**
+The validator **confirmed template/approval compliance**, conducted a **deeper validation-phase assessment** using the assessment template and challenge process, and **checked inventory completeness/accuracy** against the MDD, recording concrete exceptions and the housekeeping action. This matches the Standard’s procedural requirements; the noted discrepancies are captured as part of the consistency check and do not detract from validation conformity.
+
+
