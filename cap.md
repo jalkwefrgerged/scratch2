@@ -90,6 +90,33 @@ The requirement asks for confirmation that compliance monitoring exists and that
 
 
 
+---
+
+Requirement: The Standard owner is responsible for monitoring compliance with this standard. See compliance requirements here. The Standard Owner is also responsible for establishing processes for monitoring compliance with this Standard. See the Model Validation Procedure for more details on monitoring activities.
+
+MVR summary (paraphrased).
+The MVR reviews the model’s MPM framework, describing defined roles/responsibilities, the monitoring cadence, and how metrics/thresholds are constructed. It inspects operating evidence relevant to monitoring (e.g., daily term-structure calibration checks with analyst review and supervisory approval retained; quarterly output reviews by the lead user). It confirms governance hygiene by verifying the inventory registration for v2.7.3.0 and recommends routine syncing of downstream usages/owners before periodic reviews. It states where certain monitoring-outcome sections are not applicable for this cycle and notes areas where the monitoring design needs improvement, with remediation tracked.
+
+Rationale — Meets Expectations.
+The requirement seeks confirmation that compliance monitoring exists and that processes are established per the procedure. The Lead Validator completed the required MVR/MCR template in line with the Model Validation Procedure, assessed the MPM design and cadence, reviewed concrete control evidence, and documented whether the monitoring setup is adequate or requires remediation, thereby demonstrating oversight of the monitoring processes. Because the validator identified and evaluated the monitoring framework, recorded exceptions and required improvements, and tied these to governance artifacts, the validation work meets expectations for this requirement.
+
+
+---
+
+
+Requirement: The Standard owner is responsible for monitoring compliance with this standard. See compliance requirements here. The Standard Owner is also responsible for establishing processes for monitoring compliance with this Standard. See the Model Validation Procedure for more details on monitoring activities.
+
+MVR summary (paraphrased).
+The MVR reviews the model’s MPM framework, describing defined roles/responsibilities, monitoring cadence, and how metrics/thresholds are constructed. It inspects operating evidence relevant to monitoring (e.g., daily term-structure calibration checks with analyst review and supervisory approval retained; quarterly output reviews by the lead user). It confirms governance hygiene by verifying the release’s inventory registration and recommends routine syncing of downstream usages/owners before periodic reviews. It records that certain monitoring-outcome sections are not applicable for this cycle and notes where the monitoring design needs improvement, with remediation tracked.
+
+Rationale — Meets Expectations.
+The requirement asks for confirmation that compliance monitoring exists and that processes for such monitoring are established per the procedure. The Lead Validator completed the required MVR template in line with the Model Validation Procedure, assessed the MPM design and cadence, reviewed concrete control evidence, and documented whether the monitoring setup is adequate or requires remediation, thereby demonstrating oversight of the monitoring processes. Because the validator identified and evaluated the monitoring framework, recorded exceptions and required improvements, and tied these to governance artifacts, the validation work meets expectations for this requirement.
+
+
+
+
+
+
 
 
 
