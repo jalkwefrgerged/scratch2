@@ -1,10 +1,13 @@
 Requirement: Scope must be commensurate with risk tier; MRM verifies tier during planning
 
 MVR summary (paraphrased).
-For ValuationNet v2.7.3.0, MRM began planning with the model classified as High per the Risk Tiering Template and, after completing the review, affirmed that High remains appropriate. The report attributes this chiefly to materiality—VN generates valuation and market-risk metrics used across the retained portfolio and enterprise processes, with portfolio duration subject to management/Board limits and monitored by FHFA—and to complexity, given VN’s role as an integrator of term-structure, mortgage-rate, and prepayment components using Monte Carlo/lattice methods with broad upstream/downstream interconnectivity. Residual model risk remains High. Consistent with that tier, MRM executed a full-scope validation of the integrator model and limited implementation testing to elements changed in this release, and it notes the tier will be revisited if model usages change.
+In planning for ValuationNet v2.7.3.0, MRM verified via the Risk Tiering Template that the model is High tier and, after completing the validation, confirmed the tier remains appropriate; residual model risk also remains High. The basis for the High tier is made explicit: on materiality, VN produces enterprise-level valuation and market-risk metrics for the retained portfolio, with duration subject to management/Board limits and FHFA oversight; on complexity, VN operates as a multi-model integrator (term structure, mortgage-rate, prepayment) using Monte Carlo/lattice methods with broad upstream/downstream interconnectivity. Consistent with that rating, the validator executed a full-scope review of the integrator model and limited implementation testing to items changed in this release, and noted the tier will be revisited if model usages change.
 
 Rationale — Meets Expectations.
-The standard requires MRM to verify tier appropriateness during planning and to set scope/rigor that match that tier. The MVR does both: it explicitly reconfirms High and ties that rating to clear drivers of materiality and complexity, then applies a High-tier scope (broad domain coverage with targeted implementation testing for deltas). Keeping residual risk at High further substantiates the choice. One enhancement for future cycles would be to capture a brief “planning challenge” note that spells out what evidence could change the tier, but the requirement as written is satisfied.
+This complies with the Standard: the validator re-verified the risk tier during planning and set/documented scope and rigor commensurate with that tier, linking the High rating to clear drivers of materiality and complexity and applying a matching High-tier scope (broad domain coverage with targeted implementation testing for release deltas). Requirement satisfied. As a non-rating observation, the report does not include a formal “effective challenge” memo of the tiering rationale; adding a brief planning note on evidence considered and triggers for re-tiering would improve traceability without affecting conformance.
+
+
+
 
 
 Requirement: The scope of Full-Scope Initial Validation/Revalidation must cover Section 5.4 areas; for Targeted-Scope, the Lead Validator must determine and document the scope
@@ -14,6 +17,9 @@ For ValuationNet v2.7.3.0, the Lead Validator set and documented a High-tier ful
 
 Rationale — Meets Expectations.
 The standard requires Section 5.4 coverage for full-scope work and explicit scoping by the Lead Validator when targeting; the MVR does both. It documents a full-scope assessment across the prescribed areas and clearly limits the implementation testing to the release deltas, with supporting evidence traceable in Jira—demonstrating the LV determined and recorded scope boundaries during planning. Given the model’s High tier, a full-scope review of the integrator plus a targeted implementation slice is appropriate and consistent with the Standard. A minor enhancement for clarity would be a brief “Section 5.4 crosswalk” in the scope paragraph, but the requirement as written is satisfied.
+
+
+
 
 
 
