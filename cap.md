@@ -77,6 +77,20 @@ The MVR shows the validator considered interconnectivity and compounding effects
 
 
 
+----
+
+Requirement: The Standard owner is responsible for monitoring compliance with this standard. See compliance requirements here. The Standard Owner is also responsible for establishing processes for monitoring compliance with this Standard. See the Model Validation Procedure for more details on monitoring activities.
+
+MVR summary:
+The MVR reviews the model’s monitoring framework via the MPM plan, describing defined roles and responsibilities, monitoring frequency, and the construction of metrics and thresholds. It inspects operating evidence relevant to monitoring, including daily term-structure calibration checks with analyst review and supervisory approval retained, and quarterly output reviews by the lead user. It confirms governance hygiene by verifying the inventory registration for this release and recommends a routine sync of downstream usages and owners before periodic reviews. The report records that certain monitoring outcome sections are not applicable for this cycle and notes areas where the monitoring design needs improvement, with remediation actions tracked. Overall, the validator documents that monitoring processes exist, are being exercised, and where they are insufficient, enhancements are required.
+
+Rationale:
+The requirement asks for confirmation that compliance monitoring exists and that processes for such monitoring are established per the procedure. The MVR addresses this by assessing the MPM’s design and cadence, reviewing concrete control evidence, and documenting whether the monitoring setup is adequate or requires remediation, thereby demonstrating oversight of monitoring processes. Because the validator identified and evaluated the monitoring framework, recorded exceptions and required improvements, and tied these to governance artifacts, the validation work meets expectations for this requirement.
+
+
+
+
+
 
 
 
