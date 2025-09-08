@@ -26,11 +26,6 @@ MRM reviewed ValuationNet’s documentation and confirmed the **MDD meets the Mo
 The validation did what the Standard requires: MRM assessed the MDD against the Development Standard and explicitly attested it meets the content and sufficiency criteria, with current, approved documentation that enables understanding, independent review with minimal assistance, and proper operation. While the MVR separately notes a few enhancements elsewhere in the report, those do not alter the conclusion that the MDD, as validated, complies with the Standard.
 
 
-yes—two small additions would strengthen this, based on the MVR, without drifting from the **process-conformance** lens:
-
-1. **Version control/currentness:** note that the doc set includes a **revision history through Apr 30, 2025** and that the MDD documents **VN v2.7.3.0**. This evidences “current version” and proper version control.
-2. **Deeper validation evidence:** explicitly mention the **validation challenge log** alongside use of the **documentation assessment template** to show the validator’s “greater-depth” review and resulting enhancements to the MDD.
-
 
 
 ### Requirement: Validator confirms the MDD uses the standard template, is properly populated/approved; performs a deeper validation-phase assessment for comprehensiveness/clarity; and evaluates model-inventory completeness/accuracy and consistency with the MDD
