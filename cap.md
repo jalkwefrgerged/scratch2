@@ -29,3 +29,21 @@ The MVR treats VN as an integrator (no development/training dataset; component-m
 Rationale: Process-wise, the validation addresses the standard’s objectives by evaluating relevance and governance of the modeling data that feed VN, recording the IRAP control context and post-retirement responsibility handoff, and providing direct evidence of VNML interface data-quality testing and findings. Items not applicable at the integrator layer (no VN development dataset; no transformations/sampling within VN) are stated as such and handled via separate component-model validations and enterprise controls. While the MVR calls out a clear MFCW data quality analysis gap (owner-provided) and shows no validator analysis of that feed, the gap is explicitly captured; overall, the validator’s documented work meets the minimum required assessments without going beyond what the standard requires for an integrator, so the process Meets Expectations.
 
 
+
+-----
+-----
+
+
+Requirement: The Model Validator must also confirm the evidence provided by the Model Owner that model data was sourced from approved sources in adherence with the Enterprise Data Standard and that the group(s) responsible for the data completeness and accuracy are identified and documented. Additionally, for the model production data, the Model Validator is responsible for performing an independent assessment of the production data used within the Test environment, including evaluation of their reliability, relevance, and consistency with the development data. Note, MRM is not responsible for the quality of production data used within the Production environment.
+
+MVR summary (paraphrased).
+The MVR confirms that VN’s inputs come from enterprise-approved internal repositories and a recognized external vendor governed by Enterprise Data Governance and Enterprise Data Quality controls, and it identifies the accountable groups and review steps that ensure completeness and accuracy. It notes a narrow gap where one upstream feed did not include a provided data-quality analysis and records that a previously covered internal repository was retired from MRM scope, with appropriateness checks now performed by upstream owners and VN users. For independent assessment of production data in the Test/acceptance environment, the validator ran VML request/response data-quality checks across representative assets, debt, and derivatives (including missing/empty-field cases), performed cross-system comparisons to check consistency, and—where direct runs were not feasible—conducted a limited code review of the input-validation logic (e.g., futures ticker validation) to confirm implemented data checks. The validator also verified that Test and Production use the same ingestion pipeline. Because VN is an integrator and not trained on datasets, the report states there is no separate development dataset; the development-versus-production comparison is therefore not applicable, and reliability/relevance were evaluated on production-sourced samples used in Test. The MVR reiterates that MRM is not responsible for Production-environment data quality.
+
+Rationale — Meets Expectations.
+The report documents that the validator confirmed sourcing from approved, enterprise-governed feeds and identified the responsible groups and control steps, satisfying the confirmation and identification elements. It also shows an independent assessment of production data used in Test by executing VML-based checks, reconciling across systems, performing a limited code review where runs were not possible, and verifying identical ingestion—actions that collectively evaluate reliability and relevance in that environment. The “consistency with development data” element is explicitly treated as not applicable for an integrator with no development dataset and is explained in the MVR. On balance, the documented process meets expectations.
+
+
+
+
+
+
