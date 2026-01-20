@@ -1,4 +1,4 @@
-* Built LLM-powered data pipelines for economics research, focused on turning messy, unstructured text (scans, legal language, long-form filings) into consistent, analysis-ready datasets that researchers could use without hand-labeling or manual extraction. Emphasized reliability and repeatability by pairing LLM extraction with clear schemas, validation checks, and standardized outputs suitable for downstream statistical work.
+* Built LLM-powered data pipelines for economics research, focused on turning messy, unstructured text (scans, legal language, long-form filings) into consistent, analysis-ready datasets by pairing LLM extraction with clear schemas, validation checks, and standardized outputs for downstream statistical work.
 
   * **AI + Zoning:** Used LLMs to process zoning rules at scale to study housing supply constraints, including workflows to surface and digitize historical zoning ordinances from newspaper scans and translate complex regulatory language into structured variables that could be compared across places and time.
 
