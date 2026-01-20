@@ -1,9 +1,12 @@
-* Built LLM-powered data pipelines for economics research, focused on turning messy, unstructured text (scans, legal language, long-form filings) into consistent, analysis-ready datasets by pairing LLM extraction with clear schemas, validation checks, and standardized outputs for downstream statistical work.
+* As a research assistant at a top-tier university, I built research-grade data and analysis workflows that helped applied economics projects move from messy source documents to defensible, reproducible results.
 
-  * **AI + Zoning:** Used LLMs to process zoning rules at scale to study housing supply constraints, including workflows to surface and digitize historical zoning ordinances from newspaper scans and translate complex regulatory language into structured variables that could be compared across places and time.
+  * Programmed LLM-enabled document pipelines for economics research, spanning large-scale document retrieval, preprocessing (including OCR when needed), section-level retrieval for long documents, structured extraction into predefined schemas, and end-to-end provenance/traceability so every extracted field can be audited back to the original source text.
 
-  * **Corporate Agreements:** Used LLM-assisted document understanding to extract pricing terms and covenant language from SEC EDGAR credit agreements, mapping heterogeneous contract formats into a common schema and outputting structured JSON designed for downstream analysis, aggregation, and model-ready features.
+    * AI + Zoning: Built an end-to-end pipeline to discover historical zoning ordinances in newspaper archives (often only available as scans) and convert dense regulatory language into standardized measures of housing supply constraints, with traceability back to the underlying issue/page and supporting passages.
+    * Corporate Agreements: Built a pipeline to extract pricing and covenant terms from EDGAR credit agreement exhibits by retrieving and anchoring raw exhibits, segmenting and classifying key sections, extracting into a consistent schema, and exporting structured outputs with filing/section/span references to preserve provenance for downstream empirical work.
+  * Statistical programmer for applied economics research papers, producing publication-ready estimates and figures with replication-friendly code and clear documentation for coauthor review and robustness work.
 
-* Statistical programmer for applied economics research papers, implementing causal inference designs (DiD/DDD, event studies, IV extensions) plus heterogeneity and robustness analysis, with an emphasis on clean, reproducible code and publication-ready outputs.
+    * Implemented causal designs including DiD/DDD and event-study models, with extensions for IV, heterogeneity, and robustness analysis to support credible interpretation and transparent reporting.
+  * Created a coding-agent workflow on top of the Codex SDK to automate common RA tasks and shorten iteration cycles from idea to cleaned data to initial results.
 
-* Built a coding-agent workflow on top of the Codex SDK to automate common RA tasks (data wrangling, exploratory analysis, repetitive coding), enabling unattended runs and faster iteration from question → cleaned data → preliminary results.
+    * Automated repetitive data wrangling and exploratory analysis into unattended runs, keeping outputs organized and reviewable while reducing manual overhead.
